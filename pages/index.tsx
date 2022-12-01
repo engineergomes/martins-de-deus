@@ -1,7 +1,8 @@
 import Head from "next/head";
-import { SetStateAction } from "react";
+
 import Areas from "../components/Areas";
-import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Layout from "../components/Layout/Layout";
 
 export default function Home() {
     return (
@@ -11,9 +12,9 @@ export default function Home() {
 
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
-            <Header />
 
-            <div className="pt-40 mx-auto max-w-[1360px]">
+            <div className="mx-auto max-w-[1360px] flex flex-col gap-12 py-12">
+                <Hero />
                 <Areas />
             </div>
         </>

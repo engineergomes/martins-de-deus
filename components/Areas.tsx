@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import AreaModal from "./AreaModal";
-import { areas } from "./ModalTexts";
+import { areas } from "./Configs/ModalTexts";
 
 function Areas() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -15,9 +15,8 @@ function Areas() {
                 </h2>
                 <div className="grid grid-cols-3 grid-rows-2 place-items-center gap-6">
                     {areas.map((item, index) => (
-                        <>
+                        <Fragment key={index}>
                             <button
-                                key={index}
                                 onClick={() => {
                                     setIsModalOpen(true);
                                     setState(item.name);
@@ -41,7 +40,7 @@ function Areas() {
                                 text={item.text}
                                 panelOpen={item.name == state}
                             />
-                        </>
+                        </Fragment>
                     ))}
                 </div>
             </div>
