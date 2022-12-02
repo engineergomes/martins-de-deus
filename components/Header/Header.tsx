@@ -19,8 +19,9 @@ function Header() {
         { name: "Página Inicial", href: "/", as: "/" },
         {
             name: "Áreas de Atuação",
-            href: "#areas-de-atuacao",
-            as: "/areas-de-atuação",
+            href: "/#areas-de-atuacao",
+            as: "/#areas-de-atuacao",
+            scroll: false,
         },
         { name: "Equipe", href: "/team", as: "/equipe" },
         { name: "contato", href: "/contato", as: "/contato" },

@@ -9,6 +9,7 @@ interface navbarProps {
         name: string;
         href: string;
         as: string;
+        scroll?: boolean;
     }[];
 }
 
@@ -22,6 +23,7 @@ function Navbar({ navigation }: navbarProps) {
                             href={item.href}
                             as={item.as}
                             className="text-[#293B2C] hover:text-[#D3AC5C] text-md font-semibold transition duration-300 ease-linear "
+                            scroll={item.scroll}
                         >
                             {item.name}
                         </Link>

@@ -8,7 +8,11 @@ function Areas() {
     const [state, setState] = useState("");
 
     return (
-        <>
+        <div className="relative">
+            <div
+                id="areas-de-atuacao"
+                className="h-1 w-1 absolute -top-32"
+            ></div>
             <div className="flex flex-col gap-8">
                 <h2 className="text-[#D3AC5C] w-full text-center text-3xl font-bold">
                     Areas de Atuação
@@ -44,7 +48,7 @@ function Areas() {
                     ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

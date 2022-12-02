@@ -1,8 +1,9 @@
+import { NextPage } from "next";
 import Head from "next/head";
 import { lawyers } from "../components/Configs/LawyersInfo";
 import Lawyer from "../components/Lawyer";
 
-export default function Team() {
+const Team: NextPage = () => {
     return (
         <>
             <Head>
@@ -26,4 +27,6 @@ export default function Team() {
             </div>
         </>
     );
-}
+};
+
+export default Team;

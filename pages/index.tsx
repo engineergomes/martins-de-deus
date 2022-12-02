@@ -1,10 +1,11 @@
+import { NextPage } from "next";
 import Head from "next/head";
 
 import Areas from "../components/Areas";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 
-export default function Home() {
+const Home: NextPage = () => {
     return (
         <>
             <Head>
@@ -19,4 +20,6 @@ export default function Home() {
             </div>
         </>
     );
-}
+};
+
+export default Home;
