@@ -17,7 +17,7 @@ function Areas() {
                 <h2 className="text-[#D3AC5C] w-full text-center text-3xl font-bold">
                     Areas de Atuação
                 </h2>
-                <div className="grid grid-cols-3 grid-rows-2 place-items-center gap-6">
+                <div className="grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 place-items-center gap-6">
                     {areas.map((item, index) => (
                         <Fragment key={index}>
                             <button

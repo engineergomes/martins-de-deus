@@ -14,7 +14,7 @@ const Home: NextPage = () => {
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
-            <div className="mx-auto max-w-[1360px] flex flex-col gap-12 py-12">
+            <div className="mx-auto max-w-[1360px] flex flex-col gap-12 py-5 lg:py-12 px-5">
                 <Hero />
                 <Areas />
             </div>

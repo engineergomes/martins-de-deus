@@ -7,14 +7,14 @@ interface layoutProps {
 
 function Layout({ children, ...props }: layoutProps) {
     return (
-        <>
+        <div className="max-w-[100vw] overflow-hidden">
             <Header />
 
-            <div className="pt-32" {...props}>
+            <div className="pt-20 sm:pt-32" {...props}>
                 {children}
             </div>
             <Footer />
-        </>
+        </div>
     );
 }
 

@@ -10,10 +10,11 @@ import Link from "next/link";
 import Navbar from "./Navbar";
 import NavbarMobile from "./NavbarMobile";
 import Image from "next/image";
+import { useDimensions } from "../../hooks/onResize";
 
 function Header() {
     const [top, setTop] = useState(true);
-
+    const { isDesktop } = useDimensions();
     //items added to the arrays below will be displayed simultaneously on desktop and mobile
     const navigation = [
         { name: "Página Inicial", href: "/", as: "/" },
@@ -55,7 +56,7 @@ function Header() {
                                 <Image
                                     src={"/logo.png"}
                                     alt={"Logo"}
-                                    width={250}
+                                    width={isDesktop ? 250 : 150}
                                     height={100}
                                 />
                             </div>

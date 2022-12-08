@@ -1,6 +1,7 @@
 import { Popover, Switch, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedinIn,
@@ -55,16 +56,21 @@ function NavbarMobile({ navigation }: NavbarMobileProps) {
                 >
                     <Popover.Panel className="absolute z-10 -top-0 left-0  transition transform origin-top-left  lg:hidden ">
                         {({ close }) => (
-                            <div className=" shadow-md rounded-br-[10px]  ring-1 ring-black ring-opacity-5 overflow-hidden bg-[#EDA937] pt-4 w-[85vw] h-[100vh]">
+                            <div className=" shadow-md rounded-br-[10px] overflow-hidden bg-[#D3AC5C] pt-4 w-[82vw] h-[100vh]">
                                 <div
                                     className="px-5 pt-4 flex items-center justify-between"
                                     onClick={() => close()}
                                 >
                                     <Link
                                         href="/"
-                                        className="flex items-center justify-center gap-3"
+                                        className="flex items-center justify-center gap-3 w-full"
                                     >
-                                        LOGO
+                                        <Image
+                                            src={"/logo-mobile.png"}
+                                            alt={"Logo"}
+                                            width={50}
+                                            height={50}
+                                        />
                                     </Link>
                                 </div>
                                 <div
