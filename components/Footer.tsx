@@ -1,11 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { useDimensions } from "../hooks/onResize";
 
 function Footer() {
     const date = new Date();
-    const { isDesktop } = useDimensions();
 
     return (
         <div className="bg-[#fafafa] pt-10 pb-3 flex flex-col gap-6 px-5">
@@ -63,7 +61,7 @@ function Footer() {
                     <div className="flex items-center justify-center lg:items-start lg:justify-start">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56550.51745633859!2d-48.7122058!3d-27.6428663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa89db6af88d58e3d!2sManuela%20Martins%20-%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1669908379365!5m2!1spt-BR!2sbr"
-                            width={isDesktop ? "450" : "360"}
+                            width={"360"}
                             height="200"
                             loading="lazy"
                         ></iframe>

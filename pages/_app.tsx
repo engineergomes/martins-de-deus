@@ -7,6 +7,7 @@ import Layout from "../components/Layout/Layout";
 
 import "aos/dist/aos.css";
 import "../styles/globals.css";
+import { Widget } from "../components/Widget/Whatsapp";
 
 export default function App({ Component, pageProps }: AppProps) {
     useEffect(() => {
@@ -19,7 +20,10 @@ export default function App({ Component, pageProps }: AppProps) {
 
     return (
         <Layout>
-            <Component {...pageProps} />
+            <>
+                <Component {...pageProps} />
+                <Widget />
+            </>
         </Layout>
     );
 }

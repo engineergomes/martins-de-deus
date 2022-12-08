@@ -1,8 +1,6 @@
 import Image from "next/image";
-import { useDimensions } from "../hooks/onResize";
 
 function Hero() {
-    const { isDesktop } = useDimensions();
     return (
         <>
             <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 gap-x-10 gap-5">

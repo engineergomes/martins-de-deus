@@ -1,20 +1,12 @@
-import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
-// import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-
-// import Logo from "../assets/logo.svg";
-
-// import { DiscordLogo } from "../assets/svg/SocialLogos";
-// import { TwitterLogo } from "../assets/svg/SocialLogos";
-
 import Navbar from "./Navbar";
 import NavbarMobile from "./NavbarMobile";
 import Image from "next/image";
-import { useDimensions } from "../../hooks/onResize";
 
 function Header() {
     const [top, setTop] = useState(true);
-    const { isDesktop } = useDimensions();
+
     //items added to the arrays below will be displayed simultaneously on desktop and mobile
     const navigation = [
         { name: "Página Inicial", href: "/", as: "/" },
@@ -52,13 +44,8 @@ function Header() {
                             className="flex items-center justify-start gap-3"
                             href="/"
                         >
-                            <div className="w-max">
-                                <Image
-                                    src={"/logo.png"}
-                                    alt={"Logo"}
-                                    width={isDesktop ? 250 : 150}
-                                    height={100}
-                                />
+                            <div className="relative w-[150px] h-[60px] lg:w-[250px] lg:h-[100px]">
+                                <Image src={"/logo.png"} alt={"Logo"} fill />
                             </div>
                         </Link>
 
