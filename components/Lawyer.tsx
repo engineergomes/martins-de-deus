@@ -10,7 +10,7 @@ interface lawyerProps {
 
 function Lawyer({ name, oab, imgSrc, graduation, pos, about }: lawyerProps) {
     return (
-        <div className="mx-auto max-w-[1360px] bg-white  px-16 py-8 flex gap-20 drop-shadow-xl">
+        <div className="mx-auto max-w-[1360px] bg-white  px-16 py-8 flex flex-col lg:flex-row gap-20 drop-shadow-xl">
             <div className="flex flex-col whitespace-nowrap text-center gap-6 items-center justify-center">
                 <Image
                     className="rounded-full drop-shadow-xl"

@@ -1,14 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { useDimensions } from "../hooks/onResize";
 
 function Footer() {
     const date = new Date();
+    const { isDesktop } = useDimensions();
 
     return (
-        <div className="bg-[#fafafa] pt-10 pb-3 flex flex-col gap-6">
-            <div className="mx-auto max-w-[1360px] flex justify-around w-full">
-                <div className="flex flex-col justify-between">
+        <div className="bg-[#fafafa] pt-10 pb-3 flex flex-col gap-6 px-5">
+            <div className="mx-auto max-w-[1360px] flex flex-col lg:flex-row justify-around w-full gap-3 lg:gap-0">
+                <div className="flex flex-col justify-between gap-2 lg:gap-0">
                     <h2 className="text-3xl font-bold text-[#D3AC5C]">
                         Fale Conosco
                     </h2>
@@ -58,12 +60,14 @@ function Footer() {
                             Pagani, Palhoça - SC
                         </p>
                     </a>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56550.51745633859!2d-48.7122058!3d-27.6428663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa89db6af88d58e3d!2sManuela%20Martins%20-%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1669908379365!5m2!1spt-BR!2sbr"
-                        width="450"
-                        height="200"
-                        loading="lazy"
-                    ></iframe>
+                    <div className="flex items-center justify-center lg:items-start lg:justify-start">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56550.51745633859!2d-48.7122058!3d-27.6428663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa89db6af88d58e3d!2sManuela%20Martins%20-%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1669908379365!5m2!1spt-BR!2sbr"
+                            width={isDesktop ? "450" : "360"}
+                            height="200"
+                            loading="lazy"
+                        ></iframe>
+                    </div>
                 </div>
             </div>
             <p className="text-center text-xs">

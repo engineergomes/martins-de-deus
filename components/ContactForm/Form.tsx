@@ -84,14 +84,14 @@ export function ContactForm() {
 
     return (
         <section className="flex flex-col justify-center items-center w-full py-10 gap-10 ">
-            <h1 className="text-xl font-bold text-[#D3AC5C] text-center w-[13ch] md:w-full">
-                Deseja que entremos em contato com você? Preencha o formulário
-                abaixo.
+            <h1 className="text-xl font-bold text-[#D3AC5C] text-center  w-full">
+                Deseja que entremos em contato com você? <br /> Preencha o
+                formulário abaixo.
             </h1>
             <FormikProvider value={formik}>
-                <Form className="grid grid-cols-2 items-center justify-center gap-3">
+                <Form className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-3 w-full">
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Nome *"
                         id="username"
                         name="username"
@@ -99,7 +99,7 @@ export function ContactForm() {
                         placeholder="Insira seu nome"
                     />
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Email *"
                         id="email"
                         name="email"
@@ -107,7 +107,7 @@ export function ContactForm() {
                         placeholder="Insira seu email"
                     />
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Telefone *"
                         id="phone"
                         name="phone"
@@ -116,16 +116,16 @@ export function ContactForm() {
                     />
 
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Endereço"
                         id="cost"
                         name="cost"
                         type="text"
                         placeholder="Insira seu endereço"
                     />
-                    <div className="col-span-2">
+                    <div className="lg:col-span-2">
                         <TextInputLiveFeedback
-                            className="w-full h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3"
+                            className="w-full h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                             label="Assunto"
                             id="subject"
                             name="subject"
@@ -134,7 +134,7 @@ export function ContactForm() {
                         />
                     </div>
 
-                    <div className="col-span-2 flex flex-col">
+                    <div className="lg:col-span-2 flex flex-col">
                         <label htmlFor="message">Mensagem</label>
 
                         <Field
@@ -146,7 +146,7 @@ export function ContactForm() {
                         />
                     </div>
 
-                    <div className="col-span-2 flex flex-col  sm:w-full md:flex-row md:justify-end md:items-center relative">
+                    <div className="lg:col-span-2 flex flex-col  sm:w-full md:flex-row md:justify-end md:items-center relative">
                         {isSubmited ? (
                             <p className="flex font-medium  px-5 py-2 mt-5 justify-start text-center w-full">
                                 Em breve retornaremos seu contato!
