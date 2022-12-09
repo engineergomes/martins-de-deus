@@ -23,7 +23,7 @@ function AreaModal({
             <Transition appear show={isModalOpen && panelOpen} as={Fragment}>
                 <Dialog
                     as="div"
-                    className="relative z-10"
+                    className="relative z-50"
                     onClose={() => setIsModalOpen(false)}
                 >
                     <Transition.Child

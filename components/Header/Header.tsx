@@ -31,7 +31,7 @@ function Header() {
 
     return (
         <header
-            className={`fixed w-full  bg-white py-3 lg:py-3  md:px-10 2xl:px-0 z-50 uppercase text-sm  lg:px-10  xl:text-base transition duration-300 ease-in-out 
+            className={`fixed w-full  bg-white py-3 lg:py-3  md:px-10 2xl:px-0 z-40 uppercase text-sm  lg:px-10  xl:text-base transition duration-300 ease-in-out 
             ${!top && "bg-opacity-90 backdrop-blur-sm shadow-lg"}
       `}
         >

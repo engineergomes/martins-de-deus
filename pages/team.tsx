@@ -7,6 +7,15 @@ const Team: NextPage = () => {
     return (
         <>
             <Head>
+                <meta charSet="UTF-8" />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1.0"
+                ></meta>
+                <meta
+                    name="description"
+                    content="Manuela Martins Advocacia Advogada especialista em Direito Civil, atuante nas áreas do direito de família e sucessões, reparação de danos e consumidor."
+                />
                 <title>Martins de Deus | Equipe</title>
 
                 <link
