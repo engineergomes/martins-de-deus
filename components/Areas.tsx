@@ -25,7 +25,7 @@ function Areas() {
                                     setIsModalOpen(true);
                                     setState(item.name);
                                 }}
-                                className="flex flex-col items-center justify-center gap-3 bg-[#fafafa] w-full h-full py-8 border border-transparent hover:border-[#D3AC5C] hover:drop-shadow-xl transition duration-300 ease-in-out"
+                                className="flex flex-col items-center justify-center gap-3 bg-[#fafafa] w-full h-full py-8 border border-transparent hover:border-[#D3AC5C] drop-shadow hover:drop-shadow-xl transition duration-300 ease-in-out"
                             >
                                 <Image
                                     src={item.src}

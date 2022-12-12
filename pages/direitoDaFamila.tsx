@@ -51,8 +51,8 @@ const DireitoDaFamilia: NextPage = () => {
                 <meta name="theme-color" content="#ffffff" />
             </Head>
 
-            <div className="flex flex-col gap-10">
-                <div className="flex flex-col px-5 lg:grid lg:grid-cols-2 max-w-[1360px] mx-auto relative lg:pb-24">
+            <div className="flex flex-col gap-10 overflow-hidden pb-16">
+                <div className="flex flex-col  lg:grid lg:grid-cols-2 max-w-[1360px] mx-auto relative py-8">
                     <div className="flex flex-col gap-8 max-w-[600px] px-8 py-5 rounded-3xl opacity-95 z-20 sm:py-10">
                         <div className="flex flex-col gap-4 max-w-3xl opacity-100">
                             <p className="text-xl lg:text-2xl">
@@ -95,7 +95,7 @@ const DireitoDaFamilia: NextPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="h-full w-full p-10">
+                    <div className="hidden lg:flex h-full w-full p-10">
                         <div className="relative h-full w-full">
                             <Image
                                 className="rounded drop-shadow-lg"
@@ -105,14 +105,12 @@ const DireitoDaFamilia: NextPage = () => {
                             />
                         </div>
                     </div>
-                    <div className="w-full flex items-center justify-center absolute bottom-3 pt-10 ">
+                    <div className="col-span-2 w-full flex items-center justify-center  bottom-0 pt-6 ">
                         <a
                             href="#resultados"
                             className="h-full relative flex flex-col gap-1 justify-center items-center font-bold uppercase text-center text-xl z-20  w-min px-8 pb-14 pt-4 "
                         >
-                            <p className="text-[#D3AC5C]  whitespace-nowrap ">
-                                Ver mais
-                            </p>
+                            <p className=" whitespace-nowrap ">Ver mais</p>
                             <div className="flex absolute bottom-24 items-center justify-center">
                                 <div className="chevron "></div>
                                 <div className="chevron "></div>
