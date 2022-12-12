@@ -74,7 +74,7 @@ function FamilyRightServices() {
                         </div>
                     ))}
                 </div>
-                <div className="flex flex-col gap-4 w-full">
+                <div className="flex flex-col gap-4 w-full lg:hidden">
                     {direitoDaFamilia.map((item, index) => (
                         <Disclosure key={index}>
                             {({ open }) => (
