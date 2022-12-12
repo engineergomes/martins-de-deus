@@ -47,7 +47,7 @@ const Team: NextPage = () => {
                 <meta name="theme-color" content="#ffffff" />
             </Head>
 
-            <div className="flex flex-col gap-12 bg-[#D3AC5C] py-16 px-5">
+            <div className="flex flex-col gap-12 bg-[#293B2C] py-14 px-5">
                 {lawyers.map((lawyer) => (
                     <Lawyer
                         key={lawyer.name}

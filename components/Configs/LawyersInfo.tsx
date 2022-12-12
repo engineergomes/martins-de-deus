@@ -1,6 +1,6 @@
 export const lawyers = [
     {
-        name: "Manuela Martins",
+        name: "Manuela Martins de Deus",
         imgSrc: "/img3.png",
         oab: "OAB/SC 52.343",
         graduation: "Graduada pela Universidade do Vale do Itajaí",
