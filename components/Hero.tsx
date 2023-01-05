@@ -5,15 +5,19 @@ function Hero() {
         <>
             <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 gap-x-10 gap-5">
                 <div className="flex flex-col items-center justify-center gap-4 lg:gap-10">
-                    <p className="text-xl text-justify lg:text-left">
-                        Atuando nas diversas áreas do Direito Civil, a nossa
-                        equipe proporciona um assessoramento jurídico completo
-                        aos clientes, com a realização do direito preventivo, o
-                        agendamento de consultas, a elaboração de pareceres e a
-                        elaboração, análise e ajustes de contratos.
+                    <p className="text-xl text-justify lg:text-left text-[#3a563f]">
+                        O Escritório Martins de Deus Advogados Associados é
+                        composto por profissionais especializados, éticos e
+                        engajados, preocupados em entregar muito mais do que
+                        somente soluções jurídicas, mas, principalmente,
+                        confiança e tranquilidade para as pessoas e empresas
+                        assessoradas. Com atuação nas áreas de família, cível,
+                        criminal, imobiliária e empresarial, entrega segurança
+                        jurídica em todas as demandas judiciais e extrajudiciais
+                        dos clientes.
                     </p>
                     <div className="flex w-full items-center justify-center lg:justify-start ">
-                        <button className="py-4 px-6 rounded-xl hover:bg-[#d6b675] bg-[#D3AC5C] drop-shadow-lg text-lg font-bold text-[#293B2C]">
+                        <button className="py-4 px-6 rounded-xl hover:bg-[#d6b675] bg-[#d5a675] drop-shadow-lg text-lg font-bold">
                             Agende uma conversa
                         </button>
                     </div>

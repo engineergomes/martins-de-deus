@@ -84,14 +84,14 @@ export function ContactForm() {
 
     return (
         <section className="flex flex-col justify-center items-center w-full py-10 gap-10 ">
-            <h1 className="text-xl font-bold text-[#D3AC5C] text-center  w-full">
+            <h1 className="text-xl font-bold text-[#d5a675] text-center  w-full">
                 Deseja que entremos em contato com você? <br /> Preencha o
                 formulário abaixo.
             </h1>
             <FormikProvider value={formik}>
                 <Form className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-3 w-full">
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#d5a675] focus:ring-[#d5a675] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Nome *"
                         id="username"
                         name="username"
@@ -99,7 +99,7 @@ export function ContactForm() {
                         placeholder="Insira seu nome"
                     />
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#d5a675] focus:ring-[#d5a675] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Email *"
                         id="email"
                         name="email"
@@ -107,7 +107,7 @@ export function ContactForm() {
                         placeholder="Insira seu email"
                     />
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#d5a675] focus:ring-[#d5a675] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Telefone *"
                         id="phone"
                         name="phone"
@@ -116,7 +116,7 @@ export function ContactForm() {
                     />
 
                     <TextInputLiveFeedback
-                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
+                        className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#d5a675] focus:ring-[#d5a675] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Endereço"
                         id="cost"
                         name="cost"
@@ -125,7 +125,7 @@ export function ContactForm() {
                     />
                     <div className="lg:col-span-2">
                         <TextInputLiveFeedback
-                            className="w-full h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
+                            className="w-full h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#d5a675] focus:ring-[#d5a675] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                             label="Assunto"
                             id="subject"
                             name="subject"
@@ -138,7 +138,7 @@ export function ContactForm() {
                         <label htmlFor="message">Mensagem</label>
 
                         <Field
-                            className=" min-h-[160px] h-full p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#D3AC5C] focus:ring-[#D3AC5C] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent"
+                            className=" min-h-[160px] h-full p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#d5a675] focus:ring-[#d5a675] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent"
                             id="message"
                             name="message"
                             as="textarea"
@@ -155,7 +155,7 @@ export function ContactForm() {
                             ""
                         )}
                         <button
-                            className="flex rounded bg-[#D3AC5C] text-white font-semibold   px-5 py-2  mt-5 justify-center items-center hover:bg-[#d8b671] transition-colors disabled:opacity-50 disabled:hover:bg-[#D3AC5C] min-w-[18ch]"
+                            className="flex rounded bg-[#d5a675] text-white font-semibold   px-5 py-2  mt-5 justify-center items-center hover:bg-[#d8b671] transition-colors disabled:opacity-50 disabled:hover:bg-[#d5a675] min-w-[18ch]"
                             type="submit"
                             disabled={
                                 formik.values != undefined

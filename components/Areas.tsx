@@ -14,7 +14,7 @@ function Areas() {
                 className="h-1 w-1 absolute -top-32"
             ></div>
             <div className="flex flex-col gap-8">
-                <h2 className="text-[#D3AC5C] w-full text-center text-3xl font-bold">
+                <h2 className="text-[#d5a675] w-full text-center text-3xl font-bold">
                     Areas de Atuação
                 </h2>
                 <div className="grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 place-items-center gap-6">
@@ -25,7 +25,7 @@ function Areas() {
                                     setIsModalOpen(true);
                                     setState(item.name);
                                 }}
-                                className="flex flex-col items-center justify-center gap-3 bg-[#fafafa] w-full h-full py-8 border border-transparent hover:border-[#D3AC5C] drop-shadow hover:drop-shadow-xl transition duration-300 ease-in-out"
+                                className="flex flex-col items-center justify-center gap-3 bg-[#3a563f] w-full h-full py-8 border-4 border-transparent hover:border-[#d5a675] drop-shadow  hover:drop-shadow-2xl transition duration-300 ease-in-out rounded"
                             >
                                 <Image
                                     src={item.src}
@@ -33,7 +33,7 @@ function Areas() {
                                     width={65}
                                     height={65}
                                 />
-                                <p className="text-center text-[#D3AC5C]">
+                                <p className="text-center text-[#d5a675]">
                                     {item.name}
                                 </p>
                             </button>

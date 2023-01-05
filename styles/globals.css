@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    color: #3a563f;
 }
 
 .shaking {
@@ -61,7 +62,7 @@ html {
     top: 0;
     height: 100%;
     width: 51%;
-    background: #000;
+    background: #3a563f;
 }
 
 .chevron:before {

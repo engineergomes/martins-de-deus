@@ -9,7 +9,7 @@ function Footer() {
         <div className="bg-[#f0f0f0] pt-10 pb-3 flex flex-col gap-6 px-5">
             <div className="mx-auto max-w-[1360px] flex flex-col lg:flex-row justify-around w-full gap-3 lg:gap-0">
                 <div className="flex flex-col justify-between gap-2 lg:gap-0">
-                    <h2 className="text-3xl font-bold text-[#D3AC5C]">
+                    <h2 className="text-3xl font-bold text-[#d5a675]">
                         Fale Conosco
                     </h2>
                     <div className="flex flex-col gap-2">

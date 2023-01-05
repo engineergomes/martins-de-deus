@@ -35,7 +35,7 @@ function AreaModal({
                         leaveFrom="opacity-100"
                         leaveTo="opacity-0"
                     >
-                        <div className="fixed inset-0 bg-[#D3AC5C]/20" />
+                        <div className="fixed inset-0 bg-[#d5a675] bg-opacity-25 backdrop-blur-sm" />
                     </Transition.Child>
 
                     <div className="fixed inset-0 overflow-y-auto">
@@ -52,7 +52,7 @@ function AreaModal({
                                 <Dialog.Panel className="flex flex-col gap-6 w-full max-w-4xl transform overflow-hidden bg-white px-10 text-left align-middle shadow-xl transition-all z-20 py-16">
                                     <Dialog.Title
                                         as="h3"
-                                        className="text-center text-2xl text-[#D3AC5C] font-bold leading-6 "
+                                        className="text-center text-2xl text-[#d5a675] font-bold leading-6 "
                                     >
                                         {title}
                                     </Dialog.Title>
@@ -62,7 +62,7 @@ function AreaModal({
 
                                     <button
                                         type="button"
-                                        className="absolute top-3 right-3 inline-flex justify-center rounded-md border border-transparent px-4 py-2 text-sm font-medium text-[#D3AC5C] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                                        className="absolute top-3 right-3 inline-flex justify-center rounded-md border border-transparent px-4 py-2 text-sm font-medium text-[#d5a675] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                                         onClick={() => setIsModalOpen(false)}
                                     >
                                         <FontAwesomeIcon

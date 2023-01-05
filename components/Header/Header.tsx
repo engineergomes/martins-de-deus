@@ -15,6 +15,31 @@ function Header() {
             href: "/#areas-de-atuacao",
             as: "/#areas-de-atuacao",
             scroll: false,
+            dropdown: [
+                {
+                    name: "Direito da Família",
+                    href: "/direitoDaFamilia",
+                    as: "DireitoDaFamilia",
+                },
+                {
+                    name: "Direito Cívil",
+                    href: "/direitoCivil",
+                    as: "Direito-Civil",
+                },
+                { name: "Direito Criminal", href: "/criminal", as: "criminal" },
+
+                // { name: "Consumidor", href: "/consumidor", as: "consumidor" },
+                // {
+                //     name: "Empresarial",
+                //     href: "/empresarial",
+                //     as: "empresarial",
+                // },
+                // {
+                //     name: "Imobiliario",
+                //     href: "/imobiliario",
+                //     as: "imobiliario",
+                // },
+            ],
         },
         { name: "Equipe", href: "/team", as: "/equipe" },
         { name: "contato", href: "/contato", as: "/contato" },
@@ -31,7 +56,7 @@ function Header() {
 
     return (
         <header
-            className={`fixed w-full  bg-[#293B2C] py-3 lg:py-3  md:px-10 2xl:px-0 z-40 uppercase text-sm  lg:px-10  xl:text-base transition duration-300 ease-in-out 
+            className={`fixed w-full  bg-[#3a563f] py-3 lg:py-3  md:px-10 2xl:px-0 z-40 uppercase text-sm  lg:px-10  xl:text-base transition duration-300 ease-in-out 
             ${!top && "bg-opacity-90 backdrop-blur-sm shadow-lg"}
       `}
         >

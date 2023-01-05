@@ -18,6 +18,8 @@ import {
     faEnvelopeOpenText,
     faCloudArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
+import DropdownMenu from "./DropdownMenu";
+import DisclosureMenu from "./DisclosureMenu";
 
 // import Bars from "../../assets/bars.svg";
 // import Logo from "../../assets/logo.svg";
@@ -27,6 +29,8 @@ interface NavbarMobileProps {
         name: string;
         href: string;
         as: string;
+        scroll?: boolean;
+        dropdown?: { name: string; href: string; as: string }[];
     }[];
 }
 
@@ -36,7 +40,7 @@ function NavbarMobile({ navigation }: NavbarMobileProps) {
             <Popover>
                 <div className="flex gap-2 sm:gap-8">
                     <div className="flex items-center lg:hidden">
-                        <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center border border-[#D9D9D9] hover:text-gray-500 h-10 w-10">
+                        <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center border border-[#d5a675] text-[#d5a675] hover:border-2 h-10 w-10">
                             <FontAwesomeIcon
                                 icon={faBars}
                                 className="h-5 w-5"
@@ -56,7 +60,7 @@ function NavbarMobile({ navigation }: NavbarMobileProps) {
                 >
                     <Popover.Panel className="absolute z-10 -top-0 left-0  transition transform origin-top-left  lg:hidden ">
                         {({ close }) => (
-                            <div className=" shadow-md rounded-br-[10px] overflow-hidden bg-[#D3AC5C] pt-4 w-[82vw] h-[100vh]">
+                            <div className=" shadow-md rounded-br-[10px] overflow-hidden bg-[#d5a675] pt-4 w-[82vw] h-[100vh]">
                                 <div
                                     className="px-5 pt-4 flex items-center justify-between"
                                     onClick={() => close()}
@@ -73,18 +77,26 @@ function NavbarMobile({ navigation }: NavbarMobileProps) {
                                         />
                                     </Link>
                                 </div>
-                                <div
-                                    className="flex flex-col px-8 pt-2 pb-2  items-start gap-2 mt-7 w-full"
-                                    onClick={() => close()}
-                                >
+                                <div className="flex flex-col px-8 pt-2 pb-2  items-start gap-2 mt-7 w-full">
                                     {navigation.map((item) => (
-                                        <Link
-                                            key={item.name}
-                                            href={item.href}
-                                            as={item.as}
-                                        >
-                                            {item.name}
-                                        </Link>
+                                        <div key={item.name}>
+                                            {!item.dropdown ? (
+                                                <button onClick={() => close()}>
+                                                    <Link
+                                                        href={item.href}
+                                                        as={item.as}
+                                                        className="text-[#3a563f] text-md font-semibold transition duration-300 ease-linear "
+                                                        scroll={item.scroll}
+                                                    >
+                                                        {item.name}
+                                                    </Link>
+                                                </button>
+                                            ) : (
+                                                <DisclosureMenu
+                                                    items={item.dropdown}
+                                                />
+                                            )}
+                                        </div>
                                     ))}
                                 </div>
                             </div>

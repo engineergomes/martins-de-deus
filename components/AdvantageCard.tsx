@@ -14,7 +14,7 @@ function AdvantageCard({ title, icon, text }: advantageCardProps) {
                 <div className="row-span-2 flex items-center justify-center">
                     <FontAwesomeIcon
                         icon={icon}
-                        className="w-20 h-20 text-[#D3AC5C]"
+                        className="w-20 h-20 text-[#d5a675]"
                     />
                 </div>
                 <h2 className="font-bold">{title}</h2>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function DivorciosExtrajudicial({ ...props }) {
     return (
         <>
@@ -142,6 +144,7 @@ export function UniaoEstavel({ ...props }) {
     return (
         <>
             <svg
+                {...props}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512.000000 512.000000"
                 preserveAspectRatio="xMidYMid meet"
@@ -160,6 +163,64 @@ export function UniaoEstavel({ ...props }) {
                     <path d="M2700 2003 c-34 -13 -50 -37 -50 -74 0 -70 -6 -69 432 -69 375 0 389 1 408 20 25 25 26 71 1 101 l-19 24 -379 2 c-208 1 -385 -1 -393 -4z"></path>
                 </g>
             </svg>
+        </>
+    );
+}
+
+export function Consumidor({ ...props }) {
+    return (
+        <>
+            <Image src={"/consumerIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+export function Emprestimo({ ...props }) {
+    return (
+        <>
+            <Image src={"/loanIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+export function Transito({ ...props }) {
+    return (
+        <>
+            <Image src={"/transitoIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+export function Cobranca({ ...props }) {
+    return (
+        <>
+            <Image src={"/chargeIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+export function DanosMorais({ ...props }) {
+    return (
+        <>
+            <Image src={"/emotionalIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+export function DanosMateriais({ ...props }) {
+    return (
+        <>
+            <Image src={"/materialIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+
+export function Contratos({ ...props }) {
+    return (
+        <>
+            <Image src={"/contractIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+export function Empresarial({ ...props }) {
+    return (
+        <>
+            <Image src={"/companyIcon.png"} alt="Consumidor" fill />
         </>
     );
 }

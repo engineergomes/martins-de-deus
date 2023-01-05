@@ -4,10 +4,10 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
-import FamilyRightServices from "../components/FamilyRightServices";
 import Advantages from "../components/Advantages";
+import CivilServices from "../components/CivilServices";
 
-const DireitoDaFamilia: NextPage = () => {
+const DireitoCivil: NextPage = () => {
     return (
         <>
             <Head>
@@ -60,13 +60,13 @@ const DireitoDaFamilia: NextPage = () => {
                             </p>
                             <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
                                 Advogada especialista em <br />
-                                <span className="text-[#D3AC5C]">
-                                    Direito de Família.
+                                <span className="text-[#d5a675]">
+                                    Direito Cívil.
                                 </span>
                             </h2>
                             <p className="text-xl md:text-2xl max-w-[40ch]">
                                 Receba agora um atendimento personalizado de uma
-                                advogada que atende causas de direito da família
+                                advogada que atende causas de direito cívil
                                 todos os dias.
                             </p>
                         </div>
@@ -119,10 +119,10 @@ const DireitoDaFamilia: NextPage = () => {
                         </a>
                     </div>
                 </div>
-                <FamilyRightServices />
+                <CivilServices />
                 <Advantages />
             </div>
         </>
     );
 };
-export default DireitoDaFamilia;
+export default DireitoCivil;
