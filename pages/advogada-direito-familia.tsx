@@ -107,7 +107,7 @@ const DireitoDaFamilia: NextPage = () => {
                     </div>
                     <div className="col-span-2 w-full flex items-center justify-center  bottom-0 pt-6 ">
                         <a
-                            href="#resultados"
+                            href="#ver-mais"
                             className="h-full relative flex flex-col gap-1 justify-center items-center font-bold uppercase text-center text-xl z-20  w-min px-8 pb-14 pt-4 "
                         >
                             <p className=" whitespace-nowrap ">Ver mais</p>

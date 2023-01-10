@@ -31,7 +31,7 @@ function FamilyRightServices() {
             text: "Solicitar, manter ou mudar o tipo de guarda - compartilhada, unilateral ou alternada.",
         },
         {
-            name: "Partilha de Bens,",
+            name: "Partilha de Bens",
             icon: <PartilhaDeBens />,
             text: "Durante/após separações (divórcio/união estável) ou casos de inventário e herança.",
         },
@@ -53,54 +53,64 @@ function FamilyRightServices() {
     ];
     return (
         <>
-            <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5">
-                <h2 className="text-3xl sm:text-5xl font-bold text-center text-[#d5a675] max-w-full">
-                    Áreas de atuação da Advogada de Família
-                </h2>
+            <div className="relative">
+                <div
+                    id="ver-mais"
+                    className="absolute -top-28 bg-transparent"
+                ></div>
+                <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5">
+                    <h2 className="text-3xl sm:text-5xl font-bold text-center text-[#d5a675] max-w-full">
+                        Áreas de atuação da Advogada de Família
+                    </h2>
 
-                <div className="hidden lg:grid grid-cols-4 gap-10 place-items-center">
-                    {direitoDaFamilia.map((item, index) => (
-                        <div
-                            key={index}
-                            className="grid grid-cols-1 grid-rows-[1fr,1fr,1fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center bg-[#3a563f] text-[#d5a675] fill-[#d5a675] border-4 border-transparent hover:border-[#d5a675] drop-shadow hover:drop-shadow-xl transition duration-300 ease-in-out"
-                        >
-                            <div className="h-16 w-16 lg:h-24 lg:w-24 fill-[#d5a675]">
-                                {item.icon}
+                    <div className="hidden lg:grid grid-cols-4 gap-10 place-items-center">
+                        {direitoDaFamilia.map((item, index) => (
+                            <div
+                                key={index}
+                                className="grid grid-cols-1 grid-rows-[1fr,1fr,1fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center bg-[#3a563f] text-[#d5a675] fill-[#d5a675] border-4 border-transparent hover:border-[#d5a675] drop-shadow hover:drop-shadow-xl transition duration-300 ease-in-out"
+                            >
+                                <div className="h-16 w-16 lg:h-24 lg:w-24 fill-[#d5a675]">
+                                    {item.icon}
+                                </div>
+                                <h3 className="text-2xl font-bold text-center">
+                                    {item.name}
+                                </h3>
+                                <p className="text-center">{item.text}</p>
                             </div>
-                            <h3 className="text-2xl font-bold text-center">
-                                {item.name}
-                            </h3>
-                            <p className="text-center">{item.text}</p>
-                        </div>
-                    ))}
-                </div>
-                <div className="flex flex-col gap-4 w-full lg:hidden">
-                    {direitoDaFamilia.map((item, index) => (
-                        <Disclosure key={index}>
-                            {({ open }) => (
-                                <>
-                                    <Disclosure.Button className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 gap-4 px-4 hover:border-[#ffaa00] bg-[#3a563f] text-[#d5a675] fill-[#d5a675]">
-                                        {item.icon}
-                                        <p className="text-left">{item.name}</p>
-                                        <FontAwesomeIcon
-                                            icon={faCaretUp}
-                                            width={20}
-                                            height={20}
-                                            className={`${
-                                                open
-                                                    ? "rotate-180 transform"
-                                                    : "rotate-90"
-                                            }
+                        ))}
+                    </div>
+                    <div className="flex flex-col gap-4 w-full lg:hidden">
+                        {direitoDaFamilia.map((item, index) => (
+                            <Disclosure key={index}>
+                                {({ open }) => (
+                                    <>
+                                        <Disclosure.Button className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 gap-4 px-4 hover:border-[#ffaa00] bg-[#3a563f] text-[#d5a675] fill-[#d5a675]">
+                                            <div className="h-8 w-8 relative">
+                                                {item.icon}
+                                            </div>
+                                            <p className="text-left">
+                                                {item.name}
+                                            </p>
+                                            <FontAwesomeIcon
+                                                icon={faCaretUp}
+                                                width={20}
+                                                height={20}
+                                                className={`${
+                                                    open
+                                                        ? "rotate-180 transform"
+                                                        : "rotate-90"
+                                                }
                                             `}
-                                        />
-                                    </Disclosure.Button>
-                                    <Disclosure.Panel className="bg-[#d5a675] flex flex-col text-center p-4">
-                                        {item.text}
-                                    </Disclosure.Panel>
-                                </>
-                            )}
-                        </Disclosure>
-                    ))}
+                                            />
+                                        </Disclosure.Button>
+                                        <Disclosure.Panel className="bg-[#d5a675] flex flex-col text-center p-4">
+                                            {item.text}
+                                        </Disclosure.Panel>
+                                    </>
+                                )}
+                            </Disclosure>
+                        ))}
+                    </div>
                 </div>
             </div>
         </>

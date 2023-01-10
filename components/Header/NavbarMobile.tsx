@@ -77,23 +77,26 @@ function NavbarMobile({ navigation }: NavbarMobileProps) {
                                         />
                                     </Link>
                                 </div>
-                                <div className="flex flex-col px-8 pt-2 pb-2  items-start gap-2 mt-7 w-full">
+                                <div className="flex flex-col px-8 pt-2 pb-2  items-start gap-5 mt-7 w-full">
                                     {navigation.map((item) => (
                                         <div key={item.name}>
                                             {!item.dropdown ? (
-                                                <button onClick={() => close()}>
-                                                    <Link
-                                                        href={item.href}
-                                                        as={item.as}
-                                                        className="text-[#3a563f] text-md font-semibold transition duration-300 ease-linear "
-                                                        scroll={item.scroll}
+                                                <Link
+                                                    href={item.href}
+                                                    as={item.as}
+                                                    scroll={item.scroll}
+                                                >
+                                                    <button
+                                                        className="text-[#3a563f] text-lg font-semibold transition duration-300 ease-linear px-6"
+                                                        onClick={() => close()}
                                                     >
                                                         {item.name}
-                                                    </Link>
-                                                </button>
+                                                    </button>
+                                                </Link>
                                             ) : (
                                                 <DisclosureMenu
                                                     items={item.dropdown}
+                                                    onClick={() => close()}
                                                 />
                                             )}
                                         </div>

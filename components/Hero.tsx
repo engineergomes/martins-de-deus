@@ -17,9 +17,14 @@ function Hero() {
                         dos clientes.
                     </p>
                     <div className="flex w-full items-center justify-center lg:justify-start ">
-                        <button className="py-4 px-6 rounded-xl hover:bg-[#d6b675] bg-[#d5a675] drop-shadow-lg text-lg font-bold">
+                        <a
+                            className="py-4 px-6 rounded-xl hover:bg-[#d6b675] bg-[#d5a675] drop-shadow-lg text-lg font-bold"
+                            href="https://wa.me/5548984727432"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             Agende uma conversa
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className="grid lg:grid-cols-2 lg:grid-rows-2 relative gap-3 lg:gap-6 row-start-1 lg:row-start-auto">

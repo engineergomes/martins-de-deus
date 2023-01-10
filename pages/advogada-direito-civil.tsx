@@ -4,10 +4,10 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
-import FamilyRightServices from "../components/FamilyRightServices";
 import Advantages from "../components/Advantages";
+import CivilServices from "../components/CivilServices";
 
-const DireitoDaFamilia: NextPage = () => {
+const DireitoCivil: NextPage = () => {
     return (
         <>
             <Head>
@@ -61,12 +61,12 @@ const DireitoDaFamilia: NextPage = () => {
                             <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
                                 Advogada especialista em <br />
                                 <span className="text-[#d5a675]">
-                                    Direito de Família.
+                                    Direito Cívil.
                                 </span>
                             </h2>
                             <p className="text-xl md:text-2xl max-w-[40ch]">
                                 Receba agora um atendimento personalizado de uma
-                                advogada que atende causas de direito da família
+                                advogada que atende causas de direito cívil
                                 todos os dias.
                             </p>
                         </div>
@@ -107,7 +107,7 @@ const DireitoDaFamilia: NextPage = () => {
                     </div>
                     <div className="col-span-2 w-full flex items-center justify-center  bottom-0 pt-6 ">
                         <a
-                            href="#resultados"
+                            href="#ver-mais"
                             className="h-full relative flex flex-col gap-1 justify-center items-center font-bold uppercase text-center text-xl z-20  w-min px-8 pb-14 pt-4 "
                         >
                             <p className=" whitespace-nowrap ">Ver mais</p>
@@ -119,10 +119,10 @@ const DireitoDaFamilia: NextPage = () => {
                         </a>
                     </div>
                 </div>
-                <FamilyRightServices />
+                <CivilServices />
                 <Advantages />
             </div>
         </>
     );
 };
-export default DireitoDaFamilia;
+export default DireitoCivil;

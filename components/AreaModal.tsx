@@ -52,11 +52,11 @@ function AreaModal({
                                 <Dialog.Panel className="flex flex-col gap-6 w-full max-w-4xl transform overflow-hidden bg-white px-10 text-left align-middle shadow-xl transition-all z-20 py-16">
                                     <Dialog.Title
                                         as="h3"
-                                        className="text-center text-2xl text-[#d5a675] font-bold leading-6 "
+                                        className="text-center text-2xl text-[#d5a675] font-bold leading-6 fixed"
                                     >
                                         {title}
                                     </Dialog.Title>
-                                    <div className="mt-2 text-justify text-lg">
+                                    <div className=" text-justify text-lg mt-12">
                                         {text}
                                     </div>
 

@@ -18,15 +18,19 @@ function Header() {
             dropdown: [
                 {
                     name: "Direito da Família",
-                    href: "/direitoDaFamilia",
-                    as: "DireitoDaFamilia",
+                    href: "/advogada-direito-familia",
+                    as: "advogada-direito-familia",
                 },
                 {
                     name: "Direito Cívil",
-                    href: "/direitoCivil",
-                    as: "Direito-Civil",
+                    href: "/advogada-direito-civil",
+                    as: "advogada-direito-civil",
                 },
-                { name: "Direito Criminal", href: "/criminal", as: "criminal" },
+                {
+                    name: "Direito Criminal",
+                    href: "/advogada-direito-criminal",
+                    as: "advogada-direito-criminal",
+                },
 
                 // { name: "Consumidor", href: "/consumidor", as: "consumidor" },
                 // {
@@ -69,7 +73,7 @@ function Header() {
                             className="flex items-center justify-start gap-3"
                             href="/"
                         >
-                            <div className="relative w-[150px] h-[60px] lg:w-[250px] lg:h-[100px]">
+                            <div className="relative w-[220px] h-[80px] lg:w-[250px] lg:h-[100px]">
                                 <Image src={"/logo.png"} alt={"Logo"} fill />
                             </div>
                         </Link>

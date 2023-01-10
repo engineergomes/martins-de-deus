@@ -1,69 +1,64 @@
 import { Disclosure } from "@headlessui/react";
 import { isTemplateExpression } from "typescript";
 import {
-    Cobranca,
-    Consumidor,
-    Contratos,
-    DanosMateriais,
-    DanosMorais,
+    Assistente,
+    Comuns,
+    Comuns2,
     DivorcioLitigioso,
     DivorciosExtrajudicial,
-    Empresarial,
-    Emprestimo,
+    Drogas,
+    Flagrante,
     GuardaDosFilhos,
     PartilhaDeBens,
     PensaoAlimenticia,
+    Privado,
     Sucessoes,
-    Transito,
+    Tribunal,
     UniaoEstavel,
 } from "./SVG/Icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 
-function CivilServices() {
-    const direitoCivil = [
+function CriminalServices() {
+    const direitoCriminal = [
         {
-            name: "Consumidor",
-            icon: <Consumidor fill="#fff" />,
-            text: "Solução dos problemas nas compras de produtos em lojas físicas ou virtuais ou na contratação de algum serviço.",
+            name: "Ações Penais Privadas",
+            icon: <Privado />,
+            text: "Oferecimento de queixa-crime e representações criminais nos crimes de calúnia, difamação e injúria.",
         },
         {
-            name: "Empréstimos",
-            icon: <Emprestimo />,
-            text: "Discussão judicial dos não solicitados ou com taxas abusivas.",
+            name: "Crimes Comuns",
+            icon: <Comuns2 />,
+            text: "Crimes contra o patrimônio e financeiros; contra a pessoa; contra a fé pública; além dos demais delitos abrangidos pelo Código Penal e legislações especiais. ",
         },
         {
-            name: "Acidentes de trânsito",
-            icon: <Transito />,
-            text: "Tanto em processos judiciais quanto em tratativas de acordo.",
+            name: "Tribunal do Júri",
+            icon: <Tribunal />,
+            text: "Atuação na fase de instrução e julgamento e em plenário.",
         },
         {
-            name: "Danos Materiais",
-            icon: <DanosMateriais />,
-            text: "Após sofrer um dano, vem a necessidade de reparação pelo causador.",
+            name: "Tráfico de Drogas",
+            icon: <Drogas />,
+            text: "Foco em crimes da Lei de Drogas, especialmente tráfico de drogas, associação para o tráfico e organizações criminosas.",
         },
         {
-            name: "Danos Morais",
-            icon: <DanosMorais />,
-            text: "Reparação para aquelas situações que atingem além dos bens materiais.",
+            name: "Plantão Criminal",
+            icon: <Flagrante />,
+            text: "Acompanhamento de flagrante na Delegacia de Polícia e audiência de custódia.",
         },
         {
-            name: "Direito Empresarial",
-            icon: <Empresarial />,
-            text: "Para abrir uma sociedade e mantê-la funcionando, com elaboração de contrato social e pareceres técnicos.",
+            name: "Recursos Criminais",
+            icon: <Comuns />,
+            text: "Interposição de recursos e sustentação oral nas instâncias superiores (Tribunal de Justiça, Superior Tribunal de Justiça e Supremo Tribunal Federal).",
         },
         {
-            name: "Cobranças",
-            icon: <Cobranca />,
-            text: "Tanto de forma extraoficial e direta, quanto através de processos judiciais.",
-        },
-        {
-            name: "Contratos",
-            icon: <Contratos />,
-            text: "A elaboração de novos e a discussão dos já existentes.",
+            name: "Assistente de Acusação",
+            icon: <Assistente />,
+            text: "Atuação conjunta com o Ministério Público em favor da vítima.",
         },
     ];
+
     return (
         <>
             <div className="relative">
@@ -74,10 +69,10 @@ function CivilServices() {
                     </h2>
 
                     <div className="hidden lg:grid grid-cols-4 gap-10 place-items-center">
-                        {direitoCivil.map((item, index) => (
+                        {direitoCriminal.map((item, index) => (
                             <div
                                 key={index}
-                                className="grid grid-cols-1 grid-rows-[1fr,1fr,1fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center bg-[#fafafa] border border-transparent hover:border-[#d5a675] drop-shadow hover:drop-shadow-xl transition duration-300 ease-in-out"
+                                className="grid grid-cols-1 grid-rows-[2fr,2fr,3fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center bg-[#3a563f] text-[#d5a675] fill-[#d5a675] border-4 border-transparent hover:border-[#d5a675] drop-shadow hover:drop-shadow-xl transition duration-300 ease-in-out"
                             >
                                 <div className="h-16 w-16 lg:h-24 lg:w-24 fill-[#d5a675] relative">
                                     {item.icon}
@@ -90,7 +85,7 @@ function CivilServices() {
                         ))}
                     </div>
                     <div className="flex flex-col gap-4 w-full lg:hidden">
-                        {direitoCivil.map((item, index) => (
+                        {direitoCriminal.map((item, index) => (
                             <Disclosure key={index}>
                                 {({ open }) => (
                                     <>
@@ -127,4 +122,4 @@ function CivilServices() {
     );
 }
 
-export default CivilServices;
+export default CriminalServices;

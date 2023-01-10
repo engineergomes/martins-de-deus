@@ -10,7 +10,7 @@ function Layout({ children, ...props }: layoutProps) {
         <div className="max-w-[100vw] overflow-hidden">
             <Header />
 
-            <div className="pt-20 sm:pt-28" {...props}>
+            <div className="pt-24 sm:pt-28" {...props}>
                 {children}
             </div>
             <Footer />

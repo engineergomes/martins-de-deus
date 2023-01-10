@@ -217,10 +217,67 @@ export function Contratos({ ...props }) {
         </>
     );
 }
+
 export function Empresarial({ ...props }) {
     return (
         <>
             <Image src={"/companyIcon.png"} alt="Consumidor" fill />
+        </>
+    );
+}
+
+export function Assistente({ ...props }) {
+    return (
+        <>
+            <Image src={"/assistantIcon.png"} alt="Assistente" fill />
+        </>
+    );
+}
+
+export function Drogas({ ...props }) {
+    return (
+        <>
+            <Image src={"/dealerIcon.png"} alt="Trafico de Drogas" fill />
+        </>
+    );
+}
+
+export function Comuns({ ...props }) {
+    return (
+        <>
+            <Image src={"/commonIcon.png"} alt="Comum" fill />
+        </>
+    );
+}
+
+export function Comuns2({ ...props }) {
+    return (
+        <>
+            <Image src={"/common2Icon.png"} alt="Comum" fill />
+        </>
+    );
+}
+
+export function Flagrante({ ...props }) {
+    return (
+        <>
+            <Image src={"/flagranteIcon.png"} alt="Flagrante" fill />
+        </>
+    );
+}
+
+export function Tribunal({ ...props }) {
+    return (
+        <>
+            <Image src={"/tibunalIcon.png"} alt="Tribunal" fill />
+        </>
+    );
+}
+
+export function Privado({ ...props }) {
+    return (
+        <>
+            <Image src={"/privateIcon.png"} alt="Pasta" fill />
         </>
     );
 }
