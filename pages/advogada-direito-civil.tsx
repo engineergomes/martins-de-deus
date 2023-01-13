@@ -62,12 +62,12 @@ const DireitoCivil: NextPage = () => {
                                 Advogada especialista em <br />
                                 <span className="text-[#d5a675]">
                                     Direito <br className="hidden lg:flex" />{" "}
-                                    Cívil.
+                                    Civil.
                                 </span>
                             </h2>
                             <p className="text-xl md:text-2xl max-w-[40ch]">
                                 Receba agora um atendimento personalizado de uma
-                                advogada que atende causas de direito cívil
+                                advogada que atende causas de direito Civil
                                 todos os dias.
                             </p>
                         </div>

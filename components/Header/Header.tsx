@@ -22,7 +22,7 @@ function Header() {
                     as: "advogada-direito-familia",
                 },
                 {
-                    name: "Direito Cívil",
+                    name: "Direito Civil",
                     href: "/advogada-direito-civil",
                     as: "advogada-direito-civil",
                 },
