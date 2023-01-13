@@ -61,7 +61,8 @@ const DireitoCivil: NextPage = () => {
                             <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
                                 Advogada especialista em <br />
                                 <span className="text-[#d5a675]">
-                                    Direito Cívil.
+                                    Direito <br className="hidden lg:flex" />{" "}
+                                    Cívil.
                                 </span>
                             </h2>
                             <p className="text-xl md:text-2xl max-w-[40ch]">
@@ -99,7 +100,7 @@ const DireitoCivil: NextPage = () => {
                         <div className="relative h-full w-full">
                             <Image
                                 className="rounded drop-shadow-lg"
-                                src="/img3.png"
+                                src="/ads-civil.png"
                                 alt="Advogada"
                                 fill
                             />

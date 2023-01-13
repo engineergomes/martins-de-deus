@@ -4,7 +4,7 @@ function Hero() {
     return (
         <>
             <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 gap-x-10 gap-5">
-                <div className="flex flex-col items-center justify-center gap-4 lg:gap-10">
+                <div className="flex flex-col items-center justify-center gap-4 lg:gap-ß">
                     <p className="text-xl text-justify lg:text-left text-[#3a563f]">
                         O Escritório Martins de Deus Advogados Associados é
                         composto por profissionais especializados, éticos e
@@ -31,7 +31,7 @@ function Hero() {
                     <div
                         data-aos="fade-up"
                         data-aos-delay="100"
-                        className="hidden sm:flex items-center justify-end"
+                        className="hidden lg:flex items-center justify-end"
                     >
                         <Image
                             className="drop-shadow-lg rounded-xl"
@@ -48,17 +48,17 @@ function Hero() {
                     >
                         <Image
                             className="drop-shadow-lg rounded-xl"
-                            src="/img2.jpeg"
+                            src="/img2.png"
                             alt="Advogados"
-                            height={250}
-                            width={250}
+                            height={300}
+                            width={300}
                         />
                     </div>
 
                     <div
                         data-aos="fade-up"
                         data-aos-delay="300"
-                        className="hidden sm:flex justify-center items-start"
+                        className="hidden lg:flex justify-center items-start"
                     >
                         <Image
                             className=" top-0 left-20 drop-shadow-lg rounded-xl"
@@ -72,7 +72,7 @@ function Hero() {
                     <div
                         data-aos="fade-up"
                         data-aos-delay="400"
-                        className="hidden sm:flex items-center justify-center"
+                        className="hidden lg:flex items-center justify-center"
                     >
                         <Image
                             className="drop-shadow-lg rounded-xl"

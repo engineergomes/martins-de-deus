@@ -17,7 +17,7 @@ function Header() {
             scroll: false,
             dropdown: [
                 {
-                    name: "Direito da Família",
+                    name: "Direito de Família",
                     href: "/advogada-direito-familia",
                     as: "advogada-direito-familia",
                 },
