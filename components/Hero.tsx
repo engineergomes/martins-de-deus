@@ -4,17 +4,17 @@ function Hero() {
     return (
         <>
             <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 gap-x-10 gap-5">
-                <div className="flex flex-col items-center justify-center gap-4 lg:gap-ß">
-                    <p className="text-xl text-justify lg:text-left text-[#3a563f]">
+                <div className="flex flex-col items-center justify-center gap-4 lg:gap-12">
+                    <p className="text-xl text-justify text-[#3a563f]">
                         O Escritório Martins de Deus Advogados Associados é
                         composto por profissionais especializados, éticos e
                         engajados, preocupados em entregar muito mais do que
                         somente soluções jurídicas, mas, principalmente,
                         confiança e tranquilidade para as pessoas e empresas
                         assessoradas. Com atuação nas áreas de família, cível,
-                        criminal, imobiliária e empresarial, entrega segurança
-                        jurídica em todas as demandas judiciais e extrajudiciais
-                        dos clientes.
+                        criminal, trabalhista, empresarial, imobiliária e
+                        empresarial, entrega segurança jurídica em todas as
+                        demandas judiciais e extrajudiciais dos clientes.
                     </p>
                     <div className="flex w-full items-center justify-center lg:justify-start ">
                         <a
