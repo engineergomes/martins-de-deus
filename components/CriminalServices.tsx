@@ -65,7 +65,7 @@ function CriminalServices() {
                 <div id="ver-mais" className="absolute -top-28"></div>
                 <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5">
                     <h2 className="text-3xl sm:text-5xl font-bold text-center text-[#d5a675] max-w-full">
-                        Áreas de atuação da Advogada de Família
+                        Áreas de atuação da Advogada Criminal
                     </h2>
 
                     <div className="hidden lg:grid grid-cols-4 gap-10 place-items-center">

@@ -9,7 +9,7 @@ import AdvantageCard from "./AdvantageCard";
 function Advantages() {
     return (
         <>
-            <div className="flex flex-col lg:flex-row max-w-[1360px] mx-auto justify-around gap-10 px-5">
+            <div className="flex flex-col lg:flex-row max-w-[1360px] mx-auto justify-around gap-10 px-5 pt-6">
                 <AdvantageCard
                     icon={faHandshake}
                     title={"Mediação"}

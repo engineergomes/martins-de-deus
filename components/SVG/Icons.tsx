@@ -281,3 +281,19 @@ export function Privado({ ...props }) {
         </>
     );
 }
+
+export function Complience({ ...props }) {
+    return (
+        <>
+            <Image src={"/complienceIcon.png"} alt="Complience" fill />
+        </>
+    );
+}
+
+export function Consultancy({ ...props }) {
+    return (
+        <>
+            <Image src={"/consultancyIcon.png"} alt="Consultancy" fill />
+        </>
+    );
+}

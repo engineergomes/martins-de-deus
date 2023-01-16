@@ -16,7 +16,7 @@ const Home: NextPage = () => {
                 ></meta>
                 <meta
                     name="description"
-                    content="Manuela Martins Advocacia Advogada especialista em Direito Civil, atuante nas áreas do direito de família e sucessões, reparação de danos e consumidor."
+                    content="Martins de Deus Advogados Associados atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
                 />
                 <title>Martins de Deus</title>
 

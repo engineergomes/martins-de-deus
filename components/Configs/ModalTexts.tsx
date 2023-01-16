@@ -1,6 +1,8 @@
 export const areas = [
     {
         name: "Civil",
+        hasAds: true,
+        href: "/advogada-direito-civil",
         src: "/civil.png",
         title: "Direito Civil",
         text: (
@@ -20,6 +22,8 @@ export const areas = [
     },
     {
         name: "Familia",
+        hasAds: true,
+        href: "advogada-direito-familia",
         src: "/familia.png",
         title: "Direito de Família",
         text: (
@@ -56,6 +60,8 @@ export const areas = [
     },
     {
         name: "Criminal",
+        hasAds: true,
+        href: "advogada-direito-criminal",
         src: "/criminal.png",
         title: "Direto Criminal",
         text: (
@@ -109,6 +115,38 @@ export const areas = [
                 fiscalizadores. Elaboramos contratos e auxiliamos em escrituras
                 públicas de compra e venda. Nosso foco é auxiliar na resolução
                 da demanda de forma célere e econômica.
+            </p>
+        ),
+    },
+    {
+        name: "Trabalhista",
+        hasAds: true,
+        href: "/advogada-direito-trabalhista",
+        src: "/trabalhistaIcon.png",
+        title: "Direito Trabalhista",
+        text: (
+            <p>
+                Atuação Judicial em demandas trabalhistas, em todas as fases
+                processuais, com o intuito de representar os direitos do
+                trabalhador, ou em defesa empregador, bem como atuação em
+                audiências e sustentações orais.
+            </p>
+        ),
+    },
+    {
+        name: "Previdenciário",
+        hasAds: true,
+        href: "/advogada-direito-previdenciario",
+        src: "/imobiliario.png",
+        title: "Direito Previdenciário",
+        text: (
+            <p>
+                Atuação judicial e administrativa na área previdenciária,
+                especializada no regime geral da previdência, com atuação em
+                demandas que visem benefícios como auxílio-doença, pensão por
+                morte, salário maternidade, aposentadorias em geral, auxílio
+                acidente, LOAS e auxílio-reclusão, e demais situações
+                previdenciárias.
             </p>
         ),
     },

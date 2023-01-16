@@ -6,7 +6,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import FamilyRightServices from "../components/FamilyRightServices";
 import Advantages from "../components/Advantages";
-import CriminalServices from "../components/CriminalServices";
+import PrevServices from "../components/PrevServices";
 
 const DireitoDaFamilia: NextPage = () => {
     return (
@@ -21,7 +21,7 @@ const DireitoDaFamilia: NextPage = () => {
                     name="description"
                     content="Martins de Deus Advogados Associados atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
                 />
-                <title>Martins de Deus | Direito Criminal</title>
+                <title>Martins de Deus | Direito Previdenciário</title>
 
                 <link
                     rel="apple-touch-icon"
@@ -62,13 +62,13 @@ const DireitoDaFamilia: NextPage = () => {
                             <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
                                 Advogada especialista em <br />
                                 <span className="text-[#d5a675]">
-                                    Direito Criminal.
+                                    Direito Previdenciário.
                                 </span>
                             </h2>
                             <p className="text-xl md:text-2xl max-w-[40ch]">
                                 Receba agora um atendimento personalizado de uma
-                                advogada que atende causas de direito criminal
-                                todos os dias.
+                                advogada que atende causas de direito
+                                Previdenciário todos os dias.
                             </p>
                         </div>
 
@@ -100,7 +100,7 @@ const DireitoDaFamilia: NextPage = () => {
                         <div className="relative h-full w-full">
                             <Image
                                 className="rounded drop-shadow-lg"
-                                src="/ads-criminal.png"
+                                src="/ads-trabalhista.png"
                                 alt="Advogada"
                                 fill
                             />
@@ -120,7 +120,7 @@ const DireitoDaFamilia: NextPage = () => {
                         </a>
                     </div>
                 </div>
-                <CriminalServices />
+                <PrevServices />
                 <Advantages />
             </div>
         </>

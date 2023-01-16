@@ -18,9 +18,9 @@ const DireitoCivil: NextPage = () => {
                 ></meta>
                 <meta
                     name="description"
-                    content="Manuela Martins Advocacia Advogada especialista em Direito Civil, atuante nas áreas do direito de família e sucessões, reparação de danos e consumidor."
+                    content="Martins de Deus Advogados Associados atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
                 />
-                <title>Martins de Deus | Direito da Família</title>
+                <title>Martins de Deus | Direito Civil</title>
 
                 <link
                     rel="apple-touch-icon"
@@ -56,18 +56,18 @@ const DireitoCivil: NextPage = () => {
                     <div className="flex flex-col gap-8 max-w-[600px] px-8 py-5 rounded-3xl opacity-95 z-20 sm:py-10">
                         <div className="flex flex-col gap-4 max-w-3xl opacity-100">
                             <p className="text-xl lg:text-2xl">
-                                Fale com nossa
+                                Fale com nosso
                             </p>
                             <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
-                                Advogada especialista em <br />
+                                Advogado especialista em <br />
                                 <span className="text-[#d5a675]">
                                     Direito <br className="hidden lg:flex" />{" "}
                                     Civil.
                                 </span>
                             </h2>
                             <p className="text-xl md:text-2xl max-w-[40ch]">
-                                Receba agora um atendimento personalizado de uma
-                                advogada que atende causas de direito Civil
+                                Receba agora um atendimento personalizado de um
+                                advogado que atende causas de direito Civil
                                 todos os dias.
                             </p>
                         </div>
@@ -85,7 +85,7 @@ const DireitoCivil: NextPage = () => {
                                         width={28}
                                         height={28}
                                     />
-                                    <p>Falar com a Advogada</p>
+                                    <p>Falar com a Advogado</p>
                                 </a>
                                 <a
                                     href="tel:48984110903"

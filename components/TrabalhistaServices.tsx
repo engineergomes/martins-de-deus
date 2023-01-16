@@ -2,6 +2,8 @@ import { Disclosure } from "@headlessui/react";
 import { isTemplateExpression } from "typescript";
 import {
     Cobranca,
+    Complience,
+    Consultancy,
     Consumidor,
     Contratos,
     DanosMateriais,
@@ -15,53 +17,29 @@ import {
     PensaoAlimenticia,
     Sucessoes,
     Transito,
+    Tribunal,
     UniaoEstavel,
 } from "./SVG/Icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 
-function CivilServices() {
+function TrabalhistaServices() {
     const direitoCivil = [
         {
-            name: "Consumidor",
-            icon: <Consumidor fill="#fff" />,
-            text: "Solução dos problemas nas compras de produtos em lojas físicas ou virtuais ou na contratação de algum serviço.",
+            name: "Compliance",
+            icon: <Complience />,
+            text: "Assessoria à empresas a partir da análise da rotina, mapeamento e solução de inconformidades com a legislação vigente, com intuito de reduzir possíveis riscos de passivo trabalhista.",
         },
         {
-            name: "Empréstimos",
-            icon: <Emprestimo />,
-            text: "Discussão judicial dos não solicitados ou com taxas abusivas.",
+            name: "Consultoria Preventiva",
+            icon: <Consultancy />,
+            text: "Atendimento nas mais diversas situações corriqueiras decorrentes das relações de trabalho, com a prestação de orientação prévia e assessoramento na tomada de providências. ",
         },
         {
-            name: "Acidentes de trânsito",
-            icon: <Transito />,
-            text: "Tanto em processos judiciais quanto em tratativas de acordo.",
-        },
-        {
-            name: "Danos Materiais",
-            icon: <DanosMateriais />,
-            text: "Após sofrer um dano, vem a necessidade de reparação pelo causador.",
-        },
-        {
-            name: "Danos Morais",
-            icon: <DanosMorais />,
-            text: "Reparação para aquelas situações que atingem além dos bens materiais.",
-        },
-        {
-            name: "Direito Empresarial",
-            icon: <Empresarial />,
-            text: "Para abrir uma sociedade e mantê-la funcionando, com elaboração de contrato social e pareceres técnicos.",
-        },
-        {
-            name: "Cobranças",
-            icon: <Cobranca />,
-            text: "Tanto de forma extraoficial e direta, quanto através de processos judiciais.",
-        },
-        {
-            name: "Contratos",
-            icon: <Contratos />,
-            text: "A elaboração de novos e a discussão dos já existentes.",
+            name: "Judicial",
+            icon: <Tribunal />,
+            text: "Representação e defesa dos interesses e direitos de nossos clientes, em todas as fases processuais, inclusive com a atuação em audiências e sustentações orais.",
         },
     ];
     return (
@@ -70,10 +48,10 @@ function CivilServices() {
                 <div id="ver-mais" className="absolute -top-28"></div>
                 <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5">
                     <h2 className="text-3xl sm:text-5xl font-bold text-center text-[#d5a675] max-w-full">
-                        Áreas de atuação do Advogado Civil
+                        Áreas de atuação da Advogada Trabalhista
                     </h2>
 
-                    <div className="hidden lg:grid grid-cols-4 gap-10 place-items-center">
+                    <div className="hidden lg:grid grid-cols-3 gap-10 place-items-center">
                         {direitoCivil.map((item, index) => (
                             <div
                                 key={index}
@@ -127,4 +105,4 @@ function CivilServices() {
     );
 }
 
-export default CivilServices;
+export default TrabalhistaServices;

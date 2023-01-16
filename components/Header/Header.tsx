@@ -32,17 +32,16 @@ function Header() {
                     as: "advogada-direito-criminal",
                 },
 
-                // { name: "Consumidor", href: "/consumidor", as: "consumidor" },
-                // {
-                //     name: "Empresarial",
-                //     href: "/empresarial",
-                //     as: "empresarial",
-                // },
-                // {
-                //     name: "Imobiliario",
-                //     href: "/imobiliario",
-                //     as: "imobiliario",
-                // },
+                {
+                    name: "Direito Trabalhista",
+                    href: "/advogada-direito-trabalhista",
+                    as: "advogada-direito-trabalhista",
+                },
+                {
+                    name: "Direito Previdenciário",
+                    href: "/advogada-direito-previdenciario",
+                    as: "advogada-direito-previdenciario",
+                },
             ],
         },
         { name: "Equipe", href: "/team", as: "/equipe" },
