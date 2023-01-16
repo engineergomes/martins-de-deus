@@ -5,10 +5,10 @@ export const lawyers = [
         oab: "OAB/SC 52.343",
         graduation: "Graduada pela Universidade do Vale do Itajaí",
         pos: (
-            <p>
-                Pós Graduada em Direito Civil pela LFG,
-                <br /> Pós-graduanda em direito imobiliário
-            </p>
+            <div className="flex flex-col gap-1">
+                <p>Pós Graduada em Direito Civil pela LFG</p>
+                <p>Pós-graduanda em direito imobiliário</p>
+            </div>
         ),
         about: "Manuela Martins é advogada, graduada pela Universidade do Vale do Itajaí, pós-graduada em Direito Civil pela Anhanguera, proprietária do Escritório Manuela Martins Advocacia, atuante nas áreas de Direito Civil, Direito de Família, Direito do Consumidor e Direito Imobiliário. Na prática da advocacia preza sempre pela ética, buscando prestar um atendimento humano e personalizado na busca do direito de seus clientes.",
     },
