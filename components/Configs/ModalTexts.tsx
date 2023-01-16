@@ -108,7 +108,7 @@ export const areas = [
         ),
     },
     {
-        name: "Imobiliario",
+        name: "Imobiliário",
         src: "/imobiliario.png",
         title: "Direito Imobiliário",
         text: (
