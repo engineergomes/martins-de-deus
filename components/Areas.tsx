@@ -16,7 +16,7 @@ function Areas() {
             ></div>
             <div className="flex flex-col gap-8">
                 <h2 className="text-[#d5a675] w-full text-center text-3xl font-bold">
-                    Areas de Atuação
+                    Áreas de Atuação
                 </h2>
                 <div className="grid grid-cols-2 grid-rows-3 lg:grid-cols-4 lg:grid-rows-2 place-items-center gap-6">
                     {areas.map((item, index) => (

@@ -16,7 +16,7 @@ function DisclosureMenu({ items, onClick }: disclosureMenuProps) {
                 {({ open }) => (
                     <>
                         <Disclosure.Button className="flex items-center text-[#3a563f] text-lg font-semibold transition duration-300 ease-linear px-6">
-                            <p>Areas de Atuação</p>
+                            <p>Áreas de Atuação</p>
                             <FontAwesomeIcon
                                 icon={faCaretUp}
                                 width={20}

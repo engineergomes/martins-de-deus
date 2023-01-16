@@ -21,7 +21,7 @@ export const areas = [
         ),
     },
     {
-        name: "Familia",
+        name: "Família",
         hasAds: true,
         href: "advogada-direito-familia",
         src: "/familia.png",

@@ -6,8 +6,8 @@ export const lawyers = [
         graduation: "Graduada pela Universidade do Vale do Itajaí",
         pos: (
             <p>
-                Pós Graduada em Direito Civil pela LFG, Pós-graduanda em direito
-                imobiliário
+                Pós Graduada em Direito Civil pela LFG,
+                <br /> Pós-graduanda em direito imobiliário
             </p>
         ),
         about: "Manuela Martins é advogada, graduada pela Universidade do Vale do Itajaí, pós-graduada em Direito Civil pela Anhanguera, proprietária do Escritório Manuela Martins Advocacia, atuante nas áreas de Direito Civil, Direito de Família, Direito do Consumidor e Direito Imobiliário. Na prática da advocacia preza sempre pela ética, buscando prestar um atendimento humano e personalizado na busca do direito de seus clientes.",
@@ -25,7 +25,7 @@ export const lawyers = [
         imgSrc: "/img5.png",
         oab: "OAB/SC 62.016",
         graduation: "Graduado pela Universidade do Vale do Itajaí",
-        pos: "Pós-graduando em direito empresarial.",
+        pos: "Pós-graduando em direito empresarial",
         about: "Victor Aguiar de Melo é advogado, graduado em Direito pela Universidade do Vale do Itajaí, associado do Escritório Manuela Martins Advocacia, atuante na área do Direito Civil, com especial enfoque nas relações de consumo, no assessoramento empresarial e nas análises contratuais. Na prática da advocacia, preza por um atendimento digno e diferenciado aos clientes com uma atuação profissional com elevado senso crítico, ética, e uma busca constante pela melhor alternativa e pela Garantia dos Direitos dos clientes.",
     },
     {

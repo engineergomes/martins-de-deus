@@ -22,7 +22,7 @@ function DropdownMenu({ items }: dropdownMenuProps) {
                             width={12}
                             height={12}
                         />
-                        <p>Areas de Atuação</p>
+                        <p>Áreas de Atuação</p>
                     </Menu.Button>
                 </div>
                 <Transition

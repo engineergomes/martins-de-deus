@@ -12,9 +12,9 @@ function Hero() {
                         somente soluções jurídicas, mas, principalmente,
                         confiança e tranquilidade para as pessoas e empresas
                         assessoradas. Com atuação nas áreas de família, cível,
-                        criminal, trabalhista, empresarial, imobiliária e
+                        criminal, trabalhista, previdenciária , imobiliária e
                         empresarial, entrega segurança jurídica em todas as
-                        demandas judiciais e extrajudiciais dos clientes.
+                        demandas judiciais e extrajudiciais dos clientes
                     </p>
                     <div className="flex w-full items-center justify-center lg:justify-start ">
                         <a
