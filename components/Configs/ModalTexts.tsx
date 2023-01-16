@@ -41,6 +41,8 @@ export const areas = [
     },
     {
         name: "Consumidor",
+        hasAds: true,
+        href: "/advogada-direito-civil",
         src: "/consumidor.png",
         title: "Direito do Consumidor",
         text: (
@@ -88,6 +90,8 @@ export const areas = [
     },
     {
         name: "Empresarial",
+        hasAds: true,
+        href: "/advogada-direito-civil",
         src: "/empresarial.png",
         title: "Direito Empresarial",
         text: (
