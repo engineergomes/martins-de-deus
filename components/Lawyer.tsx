@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { ReactNode } from "react";
+// import { } from "react";
+
 interface lawyerProps {
     name: string;
     oab: string;
     imgSrc: string;
     graduation: string;
-    pos?: string;
+    pos?: ReactNode;
     about: string;
 }
 
@@ -30,7 +33,7 @@ function Lawyer({ name, oab, imgSrc, graduation, pos, about }: lawyerProps) {
                     <div className="text-xs flex flex-col gap-1 text-[#d5a675]/70">
                         <p>{oab}</p>
                         <p>{graduation}</p>
-                        {pos && <p>{pos}</p>}
+                        {pos && <>{pos}</>}
                     </div>
                 </div>
                 <p className="max-w-xl mx-auto text-[#d5a675]/80">{about}</p>

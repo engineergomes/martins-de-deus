@@ -45,7 +45,7 @@ function Header() {
             ],
         },
         { name: "Equipe", href: "/team", as: "/equipe" },
-        { name: "contato", href: "/contato", as: "/contato" },
+        { name: "Contato", href: "/contato", as: "/contato" },
     ];
 
     // detect whether user has scrolled the page down by 10px

@@ -4,7 +4,12 @@ export const lawyers = [
         imgSrc: "/img3.png",
         oab: "OAB/SC 52.343",
         graduation: "Graduada pela Universidade do Vale do Itajaí",
-        pos: "Pós Graduada em Direito Civil pela LFG",
+        pos: (
+            <p>
+                Pós Graduada em Direito Civil pela LFG, Pós-graduanda em direito
+                imobiliário
+            </p>
+        ),
         about: "Manuela Martins é advogada, graduada pela Universidade do Vale do Itajaí, pós-graduada em Direito Civil pela Anhanguera, proprietária do Escritório Manuela Martins Advocacia, atuante nas áreas de Direito Civil, Direito de Família, Direito do Consumidor e Direito Imobiliário. Na prática da advocacia preza sempre pela ética, buscando prestar um atendimento humano e personalizado na busca do direito de seus clientes.",
     },
     {
@@ -20,7 +25,7 @@ export const lawyers = [
         imgSrc: "/img5.png",
         oab: "OAB/SC 62.016",
         graduation: "Graduado pela Universidade do Vale do Itajaí",
-        pos: "Atuação em Direito Civil, com ênfase em Contratos, Direito Empresarial e Direito do Consumidor",
+        pos: "Pós-graduando em direito empresarial.",
         about: "Victor Aguiar de Melo é advogado, graduado em Direito pela Universidade do Vale do Itajaí, associado do Escritório Manuela Martins Advocacia, atuante na área do Direito Civil, com especial enfoque nas relações de consumo, no assessoramento empresarial e nas análises contratuais. Na prática da advocacia, preza por um atendimento digno e diferenciado aos clientes com uma atuação profissional com elevado senso crítico, ética, e uma busca constante pela melhor alternativa e pela Garantia dos Direitos dos clientes.",
     },
     {
@@ -31,6 +36,15 @@ export const lawyers = [
         pos: "Pós-graduanda em Criminologia e Direito Penal pela PUC do Rio Grande do Sul",
         about: "Leonora Souza é advogada, graduada pela Universidade do Vale do Itajaí e especializanda em Criminologia e Direito Penal pela PUC do Rio Grande do Sul, associada do Escritório Manuela Martins Advocacia, atuante na área de Direito Penal e Processual Penal com foco especial em processos criminais comuns e crimes da lei especial de tóxicos. Na prática da advocacia, preza por um atendimento digno e respeitoso com enfoque na garantia dos direitos humanos do acusado e das vítimas.",
     },
+    {
+        name: "Marcella Schmitz",
+        imgSrc: "/ads-trabalhista.jpeg",
+        oab: "OAB/SC 52.462",
+        graduation: "Graduada pela Universidade do Vale do Itajaí ",
+        pos: "Pós-graduanda em Direito do Trabalho e Previdenciária na Associação de Magistrados do Trabalho",
+        about: "Marcella Schmitz é advogada, graduada pela Universidade do Vale do Itajaí, com especialização em Direito Previdenciário pelo Instituto de Estudos Previdenciários - IEPREV, e pós-graduanda em Direito do Trabalho e Previdenciária na Associação de Magistrados do Trabalho da 12ª Região - AMATRA12. Atuante há quase 5 anos nas respectivas áreas, prima pelo atendimento humanizado e atuação proativa, para melhor defender e atender o interesse de seus clientes.",
+    },
+
     {
         name: "MARIA EDUARDA NEUHAUS",
         imgSrc: "/img4.png",

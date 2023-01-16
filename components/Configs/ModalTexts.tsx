@@ -137,7 +137,7 @@ export const areas = [
         name: "Previdenciário",
         hasAds: true,
         href: "/advogada-direito-previdenciario",
-        src: "/imobiliario.png",
+        src: "/previdenciarioIcon.png",
         title: "Direito Previdenciário",
         text: (
             <p>
