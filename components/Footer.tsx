@@ -22,11 +22,11 @@ function Footer() {
                         </a>
                         <a href="tel:+554833743278">Telefone: (48) 3374-3278</a>
                         <a
-                            href="mailto:contato@manuelamartinsadvocacia.com"
+                            href="mailto:contato@contato@martinsdedeus.com.br"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            E-mail: contato@manuelamartinsadvocacia.com
+                            E-mail: contato@martinsdedeus.com.br
                         </a>
                     </div>
 
