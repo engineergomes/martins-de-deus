@@ -22,7 +22,6 @@ function Lawyer({ name, oab, imgSrc, graduation, pos, about }: lawyerProps) {
                     width={300}
                     height={300}
                 />
-                {/* <div className="flex flex-col gap-2"></div> */}
             </div>
 
             <div className="flex flex-col gap-6 justify-center ">
