@@ -22,7 +22,7 @@ export function ContactForm() {
         let email = campos.email;
         let subject = campos.subject;
         let phone = campos.phone;
-        let cost = campos.cost;
+        let address = campos.address;
         let message = campos.message;
         let username = campos.username;
         axios.post("/api/sendMail", {
@@ -30,7 +30,7 @@ export function ContactForm() {
             email,
             phone,
             subject,
-            cost,
+            address,
             message,
         });
     }
@@ -41,7 +41,7 @@ export function ContactForm() {
             email: "",
             phone: "",
             subject: "",
-            cost: "",
+            address: "",
             message: "",
             // anexo: null,
         },
@@ -118,8 +118,8 @@ export function ContactForm() {
                     <TextInputLiveFeedback
                         className="h-10  p-2 rounded border border-solid border-black bg-inherit resize-none overflow-auto focus:border-[#d5a675] focus:ring-[#d5a675] focus:outline-none scrollbar-thumb-zinc-700 scrollbar-thin scrollbar-track-transparent mb-3 w-full"
                         label="Endereço"
-                        id="cost"
-                        name="cost"
+                        id="adress"
+                        name="adress"
                         type="text"
                         placeholder="Insira seu endereço"
                     />
