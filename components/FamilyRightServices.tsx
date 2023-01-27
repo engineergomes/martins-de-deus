@@ -16,12 +16,12 @@ import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 function FamilyRightServices() {
     const direitoDaFamilia = [
         {
-            name: "Divorcio Litigioso",
+            name: "Divórcio Litigioso",
             icon: <DivorcioLitigioso />,
             text: "Sem consenso, a separação será na Justiça. Também é a solução para definir pensão, guarda e partilha",
         },
         {
-            name: "Divorcios Extrajudicial",
+            name: "Divórcio Extrajudicial",
             icon: <DivorciosExtrajudicial />,
             text: "Consensual em Cartório. Opção mais rápida e menos custosa.",
         },
@@ -36,7 +36,7 @@ function FamilyRightServices() {
             text: "Durante/após separações (divórcio/união estável) ou casos de inventário e herança.",
         },
         {
-            name: "Pensao Alimenticia",
+            name: "Pensão Alimenticia",
             icon: <PensaoAlimenticia />,
             text: "Fixação, revisão, execução e exoneração dos valoes.",
         },
@@ -46,7 +46,7 @@ function FamilyRightServices() {
             text: "Inventários, heranças, partilha de bens judiciais e extrajudiciais.",
         },
         {
-            name: "Uniao Estável",
+            name: "União Estável",
             icon: <UniaoEstavel />,
             text: "Reconhecimento ou dissolução, em processos judiciais ou extrajudiciais.",
         },
