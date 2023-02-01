@@ -100,7 +100,7 @@ const DireitoDaFamilia: NextPage = () => {
                         <div className="relative h-full w-full">
                             <Image
                                 className="rounded drop-shadow-lg object-cover"
-                                src="/img12.jpg"
+                                src="/img13.jpg"
                                 alt="Advogada"
                                 fill
                             />
