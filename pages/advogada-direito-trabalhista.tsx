@@ -99,8 +99,8 @@ const DireitoDaFamilia: NextPage = () => {
                     <div className="hidden lg:flex h-full w-full p-10">
                         <div className="relative h-full w-full">
                             <Image
-                                className="rounded drop-shadow-lg"
-                                src="/ads-trabalhista.jpeg"
+                                className="rounded drop-shadow-lg object-cover"
+                                src="/img12.jpg"
                                 alt="Advogada"
                                 fill
                             />

@@ -3,7 +3,7 @@ import Image from "next/image";
 function Hero() {
     return (
         <>
-            <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 gap-x-10 gap-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-5">
                 <div className="flex flex-col items-center justify-center gap-4 lg:gap-12">
                     <p className="text-xl text-justify text-[#3a563f]">
                         O Escritório Martins de Deus Advogados Associados é
@@ -27,7 +27,19 @@ function Hero() {
                         </a>
                     </div>
                 </div>
-                <div className="grid lg:grid-cols-2 lg:grid-rows-2 relative gap-3 lg:gap-6 row-start-1 lg:row-start-auto">
+
+                {/* <div className="relative w-full h-full min-h-[30rem]"> */}
+                <Image
+                    data-aos="fade-up"
+                    className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
+                    src="/img11.jpg"
+                    alt="Advogados"
+                    height={600}
+                    width={800}
+                />
+                {/* </div> */}
+
+                {/* <div className="grid lg:grid-cols-2 lg:grid-rows-2 relative gap-3 lg:gap-6 row-start-1 lg:row-start-auto">
                     <div
                         data-aos="fade-up"
                         data-aos-delay="100"
@@ -44,11 +56,11 @@ function Hero() {
                     <div
                         data-aos="fade-up"
                         data-aos-delay="0"
-                        className="flex items-center justify-center lg:justify-end"
+                        className="flex items-center justify-center lg:justify-end h-[18.75rem] w-[18.75rem] relative"
                     >
                         <Image
-                            className="drop-shadow-lg rounded-xl"
-                            src="/img2.png"
+                            className="drop-shadow-lg rounded-xl "
+                            src="/img10.png"
                             alt="Advogados"
                             height={300}
                             width={300}
@@ -82,7 +94,7 @@ function Hero() {
                             width={180}
                         />
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     );

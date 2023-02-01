@@ -38,7 +38,7 @@ export const lawyers = [
     },
     {
         name: "Marcella Schmitz",
-        imgSrc: "/ads-trabalhista.jpeg",
+        imgSrc: "/img8.png",
         oab: "OAB/SC 52.462",
         graduation: "Graduada pela Universidade do Vale do Itajaí ",
         pos: "Pós-graduanda em Direito do Trabalho e Previdenciária na Associação de Magistrados do Trabalho",
