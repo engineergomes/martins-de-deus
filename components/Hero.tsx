@@ -3,8 +3,8 @@ import Image from "next/image";
 function Hero() {
 	return (
 		<>
-			<div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-5">
-				<div className="flex flex-col items-center justify-center gap-4 lg:gap-12">
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-5 ">
+				<div className="flex flex-col items-center justify-center gap-4 lg:gap-12 ">
 					<p className="text-xl text-justify text-[#3a563f]">
 						O Escritório Martins de Deus Advogados Associados é
 						composto por profissionais especializados, éticos e
@@ -28,16 +28,16 @@ function Hero() {
 					</div>
 				</div>
 
-				{/* <div className="relative w-full h-full min-h-[30rem]"> */}
-				<Image
-					data-aos="fade-up"
-					className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
-					src="/img15.jpg"
-					alt="Advogados"
-					height={600}
-					width={800}
-				/>
-				{/* </div> */}
+				<div className="relative w-full h-full min-h-[30rem]">
+					<Image
+						data-aos="fade-up"
+						className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
+						src="/img15.jpg"
+						alt="Advogados"
+						height={600}
+						width={800}
+					/>
+				</div>
 
 				{/* <div className="grid lg:grid-cols-2 lg:grid-rows-2 relative gap-3 lg:gap-6 row-start-1 lg:row-start-auto">
                     <div
