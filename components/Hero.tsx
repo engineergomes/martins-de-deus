@@ -32,7 +32,7 @@ function Hero() {
 				<Image
 					data-aos="fade-left"
 					className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
-					src="/img15.jpg"
+					src="/img15.png"
 					alt="Advogados"
 					height={427}
 					width={640}
