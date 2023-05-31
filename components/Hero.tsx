@@ -34,8 +34,8 @@ function Hero() {
 					className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
 					src="/img15.jpg"
 					alt="Advogados"
-					height={600}
-					width={800}
+					height={427}
+					width={640}
 				/>
 				{/* </div> */}
 
