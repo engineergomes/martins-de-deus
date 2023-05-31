@@ -28,16 +28,16 @@ function Hero() {
 					</div>
 				</div>
 
-				<div className="relative w-full h-full min-h-[30rem]">
-					<Image
-						data-aos="fade-up"
-						className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
-						src="/img15.jpg"
-						alt="Advogados"
-						height={600}
-						width={800}
-					/>
-				</div>
+				{/* <div className="relative w-full h-full min-h-[30rem]"> */}
+				<Image
+					data-aos="fade-left"
+					className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
+					src="/img15.jpg"
+					alt="Advogados"
+					height={600}
+					width={800}
+				/>
+				{/* </div> */}
 
 				{/* <div className="grid lg:grid-cols-2 lg:grid-rows-2 relative gap-3 lg:gap-6 row-start-1 lg:row-start-auto">
                     <div
