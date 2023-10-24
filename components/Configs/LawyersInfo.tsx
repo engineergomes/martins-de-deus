@@ -53,6 +53,15 @@ export const lawyers = [
 			"Graduanda da Universidade do Sul de Santa Catarina - UNISUL",
 		about: "A Maria é estudante de direito e, como estagiária, auxilia os demais membros do escritório na produção de peças jurídicas, elaboração de documentos e diligências. Com rápido aprendizado e grande interesse na prática da advocacia, possui um futuro brilhante como operadora do direito.",
 	},
+
+	{
+		name: "GABRIELA SCHMITZ GOMES",
+		imgSrc: "/img17.png",
+		oab: "Assessora Jurídica",
+		graduation: "Bacharel em Direito pela Universidade do Vale do Itajaí",
+		about: "Assessora os demais membros da equipe na produção de peças jurídicas, elaboração de documentos e diligências. Na prática da advocacia contribui para fortalecer o entendimento dos direitos e valores da sociedade. Buscando prezar pela equidade e verdade.",
+	},
+
 	// {
 	// 	name: "DANIEL DA CUNHA JUNIOR",
 	// 	imgSrc: "/img14.png",
