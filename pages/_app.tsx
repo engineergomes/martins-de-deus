@@ -8,7 +8,7 @@ import Layout from "../components/Layout/Layout";
 import "aos/dist/aos.css";
 import "../styles/globals.css";
 import { Widget } from "../components/Widget/Whatsapp";
-import TagManager from "react-gtm-module";
+// import TagManager from "react-gtm-module";
 import Head from "next/head";
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -19,9 +19,9 @@ export default function App({ Component, pageProps }: AppProps) {
 			easing: "ease-out-cubic",
 		});
 	});
-	useEffect(() => {
-		TagManager.initialize({ gtmId: "AW-350433948" });
-	}, []);
+	// useEffect(() => {
+	// 	TagManager.initialize({ gtmId: "AW-350433948" });
+	// }, []);
 
 	return (
 		<>
