@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
 		});
 	});
 	useEffect(() => {
-		TagManager.initialize({ gtmId: "AW-350433948" });
+		TagManager.initialize({ gtmId: "GTM-5PF3TMX" });
 	}, []);
 
 	return (
