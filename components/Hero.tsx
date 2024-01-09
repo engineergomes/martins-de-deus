@@ -1,13 +1,14 @@
 import Image from "next/image";
+import { CleanButton } from "./CleanButton";
 
 function Hero() {
 	return (
 		<>
 			<div
-				className="flex flex-col items-center justify-items-center justify-center gap-4 lg:gap-12 py-5 pb-20 border-b border-[#CFAA7D]"
+				className="flex flex-col items-center justify-end border-b border-[#CFAA7D] relative"
 				style={{ backgroundImage: `url('./bg-effect.png')` }}
 			>
-				<div className="max-w-[1360px] px-5 flex flex-col items-center justify-items-center justify-center gap-4 lg:gap-12 py-5 pb-20">
+				<div className="max-w-[1360px] px-5 flex flex-col items-center justify-center gap-4 lg:gap-6 pt-5">
 					{/* <p className="text-xl text-justify text-[#3a563f]">
 						O Escritório Martins de Deus Advogados Associados é
 						composto por profissionais especializados, éticos e
@@ -42,14 +43,22 @@ function Hero() {
 							assessoradas.
 						</h2>
 					</div>
-					<Image
-						data-aos="fade-left"
-						className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
-						src="/img15-nobg.png"
-						alt="Advogados"
-						height={733}
-						width={800}
+					<CleanButton
+						text={"ENTRAR EM CONTATO"}
+						href={
+							"https://api.whatsapp.com/send/?phone=5548984727432&text&type=phone_number&app_absent=0"
+						}
 					/>
+					<div className="-mt-12">
+						<Image
+							data-aos="fade-left"
+							className="row-start-1 lg:col-start-2"
+							src="/img15-nobg.png"
+							alt="Advogados"
+							width={1242}
+							height={516}
+						/>
+					</div>
 				</div>
 			</div>
 

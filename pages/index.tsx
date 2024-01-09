@@ -60,7 +60,7 @@ const Home: NextPage = () => {
 				<meta name="theme-color" content="#ffffff" />
 			</Head>
 
-			<div className="mx-auto flex flex-col gap-12 py-5 lg:py-12 pt-8">
+			<div className="mx-auto flex flex-col gap-12 py-5 lg:py-12">
 				<Hero />
 				<Areas />
 			</div>
