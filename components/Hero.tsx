@@ -1,10 +1,14 @@
 import Image from "next/image";
 
 function Hero() {
-  return (
-    <>
-      <div className="flex flex-col items-center justify-items-center justify-center gap-4 lg:gap-12 py-5 pb-20">
-        {/* <p className="text-xl text-justify text-[#3a563f]">
+	return (
+		<>
+			<div
+				className="flex flex-col items-center justify-items-center justify-center gap-4 lg:gap-12 py-5 pb-20 border-b border-[#CFAA7D]"
+				style={{ backgroundImage: `url('./bg-effect.png')` }}
+			>
+				<div className="max-w-[1360px] px-5 flex flex-col items-center justify-items-center justify-center gap-4 lg:gap-12 py-5 pb-20">
+					{/* <p className="text-xl text-justify text-[#3a563f]">
 						O Escritório Martins de Deus Advogados Associados é
 						composto por profissionais especializados, éticos e
 						engajados, preocupados em entregar muito mais do que
@@ -15,7 +19,7 @@ function Hero() {
 						empresarial, entrega segurança jurídica em todas as
 						demandas judiciais e extrajudiciais dos clientes
 					</p> */}
-        {/* <div className="flex w-full items-center justify-center lg:justify-start ">
+					{/* <div className="flex w-full items-center justify-center lg:justify-start ">
             <a
               className="py-4 px-6 rounded-xl hover:bg-[#d6b675] bg-[#d5a675] drop-shadow-lg text-lg font-bold"
               href="https://wa.me/5548984727432"
@@ -25,32 +29,35 @@ function Hero() {
               Agende uma conversa
             </a>
           </div> */}
-        <div className="text-[#d5a675] w-1/2 gap-5 flex flex-col text-center">
-          <h1 className="text-5xl">
-            Defendendo seus interesses com excelência
-          </h1>
-          <h2 className="text-white">
-            O Escritório Deus e Aguiar Advocacia é composto por profissionais
-            especializados, éticos e engajados, preocupados em entregar muito
-            mais do que somente soluções jurídicas, mas, principalmente,
-            confiança e tranquilidade para as pessoas e empresas assessoradas.
-          </h2>
-        </div>
-        <Image
-          data-aos="fade-left"
-          className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
-          src="/img15.png"
-          alt="Advogados"
-          height={733}
-          width={800}
-        />
-      </div>
+					<div className="text-[#d5a675] w-1/2 gap-5 flex flex-col text-center">
+						<h1 className="text-5xl">
+							Defendendo seus interesses com excelência
+						</h1>
+						<h2 className="text-white">
+							O Escritório Deus e Aguiar Advocacia é composto por
+							profissionais especializados, éticos e engajados,
+							preocupados em entregar muito mais do que somente
+							soluções jurídicas, mas, principalmente, confiança e
+							tranquilidade para as pessoas e empresas
+							assessoradas.
+						</h2>
+					</div>
+					<Image
+						data-aos="fade-left"
+						className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
+						src="/img15-nobg.png"
+						alt="Advogados"
+						height={733}
+						width={800}
+					/>
+				</div>
+			</div>
 
-      {/* <div className="relative w-full h-full min-h-[30rem]"> */}
+			{/* <div className="relative w-full h-full min-h-[30rem]"> */}
 
-      {/* </div> */}
+			{/* </div> */}
 
-      {/* <div className="grid lg:grid-cols-2 lg:grid-rows-2 relative gap-3 lg:gap-6 row-start-1 lg:row-start-auto">
+			{/* <div className="grid lg:grid-cols-2 lg:grid-rows-2 relative gap-3 lg:gap-6 row-start-1 lg:row-start-auto">
                     <div
                         data-aos="fade-up"
                         data-aos-delay="100"
@@ -106,8 +113,8 @@ function Hero() {
                         />
                     </div>
                 </div> */}
-    </>
-  );
+		</>
+	);
 }
 
 export default Hero;
