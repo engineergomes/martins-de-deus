@@ -70,15 +70,6 @@ const DireitoDaFamilia: NextPage = () => {
                   href={"https://wa.me/5548984727432"}
                   whatsapp={true}
                 />
-                {/* <a
-                  href="https://wa.me/5548984727432"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-2 justify-center bg-green-500 font-bold py-3 px-6 rounded-3xl md:text-lg hover:bg-green-200 w-fit"
-                >
-                  <FontAwesomeIcon icon={faWhatsapp} width={28} height={28} />
-                  <p>Falar com a Advogada</p>
-                </a> */}
                 <a href="tel:48984110903" className="text-center">
                   (48) 98472-7432
                 </a>

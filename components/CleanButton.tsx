@@ -7,7 +7,7 @@ export const CleanButton = (props: {
   whatsapp: boolean;
 }) => {
   return (
-    <a href={props.href} target="_blank">
+    <a href={props.href} target="_blank" rel="noreferrer">
       <div className="text-white flex rounded-full border-2 border-[#d5a675] p-3 px-14 gap-x-2 font-semibold hover:opacity-80 items-center">
         {props.whatsapp && (
           <FontAwesomeIcon icon={faWhatsapp} width={28} height={28} />

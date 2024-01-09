@@ -92,7 +92,7 @@ function CivilServices() {
               <Disclosure key={index}>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 gap-4 px-4 hover:border-[#ffaa00] bg-[#3a563f] text-[#d5a675] fill-[#d5a675]">
+                    <Disclosure.Button className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 gap-4 px-4 hover:border-[#ffaa00] bg-[#414530] text-[#d5a675] fill-[#d5a675]">
                       <div className="h-8 w-8 relative">{item.icon}</div>
                       <p className="text-left">{item.name}</p>
                       <FontAwesomeIcon

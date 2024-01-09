@@ -81,7 +81,9 @@ function BusinessLaw() {
             {direitoCivil.map((item, index) => (
               <div
                 key={index}
-                className="grid grid-cols-1 grid-rows-[1fr,1fr,1fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center bg-[#fafafa] border border-transparent hover:border-[#d5a675] drop-shadow hover:drop-shadow-xl transition duration-300 ease-in-out"
+                className="grid grid-cols-1 grid-rows-[1fr,1fr,1fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center
+                 bg-[#fafafa] border border-transparent hover:border-[#d5a675] drop-shadow hover:drop-shadow-xl transition 
+                 duration-300 ease-in-out text-[#414530]"
               >
                 <div className="h-16 w-16 lg:h-24 lg:w-24 fill-[#d5a675] relative">
                   {item.icon}
@@ -96,7 +98,10 @@ function BusinessLaw() {
               <Disclosure key={index}>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 gap-4 px-4 hover:border-[#ffaa00] bg-[#3a563f] text-[#d5a675] fill-[#d5a675]">
+                    <Disclosure.Button
+                      className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 
+                    gap-4 px-4 hover:border-[#ffaa00] bg-[#3a563f] text-[#d5a675] fill-[#d5a675]"
+                    >
                       <div className="h-8 w-8 relative">{item.icon}</div>
                       <p className="text-left">{item.name}</p>
                       <FontAwesomeIcon
