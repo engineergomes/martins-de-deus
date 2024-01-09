@@ -44,8 +44,8 @@ function Header() {
         },
         {
           name: "Direito Empresarial",
-          href: "/advogada-direito-empresarial",
-          as: "advogada-direito-empresarial",
+          href: "/advogado-direito-empresarial",
+          as: "advogado-direito-empresarial",
         },
       ],
     },

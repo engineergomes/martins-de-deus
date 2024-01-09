@@ -30,7 +30,7 @@ function DropdownMenu({ items }: dropdownMenuProps) {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="absolute top-5 mt-2 w-56 origin-top divide-y divide-gray-100 rounded-md bg-[#B6BBB9] shadow-lg focus:outline-none z-[100]">
+          <Menu.Items className="absolute top-5 mt-2 w-56 origin-top divide-y divide-[#afbdb8] rounded-md bg-[#B6BBB9] shadow-lg focus:outline-none z-[100]">
             {items.map((item) => (
               <div className="px-1 py-1 " key={item.name}>
                 <Menu.Item>
