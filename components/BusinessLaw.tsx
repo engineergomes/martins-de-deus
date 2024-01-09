@@ -32,19 +32,19 @@ function BusinessLaw() {
       text: "Elaboração de processos e defesas que envolvam qualquer atividade relacionada à empresa.",
     },
     {
-      name: "Elaboração e revisão de contratos",
+      name: "Contratos",
       icon: <Contratos />,
-      text: "Seja qual for a área de sua empresa, nosso time jurídico possui especialistas tanto do direito civil quanto do direito trabalhista para analisar e redigir cláusulas que melhor defendam o interesse da empresa.",
+      text: "Proteção jurídica: cláusulas defensivas em direito civil e trabalhista para sua empresa.",
     },
     {
-      name: "Assessoria jurídica completa",
+      name: "Assessoria jurídica",
       icon: <Comuns2 />,
-      text: "Além da atuação no contencioso, a assessoria jurídica cotidiana é vital para um crescimento saudável da empresa.",
+      text: "Atuação contenciosa e assessoria jurídica essencial para o crescimento saudável da empresa.",
     },
     {
       name: "Trâmites em órgãos administrativos",
       icon: <Assistente />,
-      text: "Também realizamos trâmites nas agências reguladoras de diversas áreas empresariais, além de órgãos como a Receita Federal, Detran, Juntas Comerciais e qualquer outro órgão necessário para o regular funcionamento dos nossos clientes.",
+      text: "Agilizamos trâmites em órgãos reguladores, Receita Federal, Detran, Juntas Comerciais, assegurando funcionamento regular.",
     },
     {
       name: "Cobranças:",
@@ -54,7 +54,7 @@ function BusinessLaw() {
     {
       name: "Direito Trabalhista",
       icon: <Comuns2 />,
-      text: "Realização de defesas judiciais, elaboração de acordos com os funcionários e assessoria quanto ao cumprimento das normas específicas sobre a atividade da empresa.",
+      text: "Defesas judiciais, acordos e assessoria para cumprir normas específicas na atividade empresarial.",
     },
     {
       name: "Tributário",
@@ -62,9 +62,9 @@ function BusinessLaw() {
       text: "Diligências na Receita Federal e auxílio nos tributos devidos pela empresa.",
     },
     {
-      name: "Atuação personalizada para diversos atos",
+      name: "Atuação personalizada",
       icon: <Contratos />,
-      text: "Elaboração e Dissolução de Sociedades, Recuperação Judicial e Falência, Contratos Bancários, Marcas e Patentes, Abertura e estruturação de empresas, Arbitragem Empresarial, Incorporações, Fusões e Aquisições, entre outras atividades.",
+      text: "Assessoria em Sociedades, Recuperação Judicial, Contratos Bancários, Marcas, Abertura de Empresas e mais.",
     },
   ];
 
@@ -72,8 +72,8 @@ function BusinessLaw() {
     <>
       <div className="relative">
         <div id="ver-mais" className="absolute -top-28"></div>
-        <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5">
-          <h2 className="text-3xl sm:text-5xl font-bold text-center text-[#d5a675] max-w-full">
+        <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5 text-[#d5a675]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-center max-w-full">
             Áreas de atuação do Advogado Empresarial
           </h2>
 

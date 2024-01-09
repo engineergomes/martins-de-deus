@@ -48,6 +48,7 @@ function Hero() {
 						href={
 							"https://api.whatsapp.com/send/?phone=5548984727432&text&type=phone_number&app_absent=0"
 						}
+						whatsapp={false}
 					/>
 					<div className="-mt-12">
 						<Image

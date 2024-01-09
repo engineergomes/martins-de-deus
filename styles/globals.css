@@ -3,93 +3,93 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
-    color: #3a563f;
+  scroll-behavior: smooth;
+  color: #3a563f;
 }
 
 .shaking {
-    animation: shake 5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
-    animation-iteration-count: infinite;
+  animation: shake 5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-    70% {
-        transform: translate3d(-1px, 0, 0);
-    }
+  70% {
+    transform: translate3d(-1px, 0, 0);
+  }
 
-    76%,
-    96.4% {
-        transform: translate3d(2px, 0, 0);
-    }
+  76%,
+  96.4% {
+    transform: translate3d(2px, 0, 0);
+  }
 
-    80%,
-    86.5%,
-    93% {
-        transform: translate3d(-4px, 0, 0);
-    }
+  80%,
+  86.5%,
+  93% {
+    transform: translate3d(-4px, 0, 0);
+  }
 
-    83.2%,
-    89.8% {
-        transform: translate3d(4px, 0, 0);
-    }
+  83.2%,
+  89.8% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 .chevron {
-    top: 2rem;
-    position: absolute;
-    width: 28px;
-    height: 8px;
-    opacity: 0;
-    transform: scale3d(0.5, 0.5, 0.5);
-    animation: move 3s ease-out infinite;
+  top: 2rem;
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
 }
 
 .chevron:first-child {
-    animation: move 3s ease-out 1s infinite;
+  animation: move 3s ease-out 1s infinite;
 }
 
 .chevron:nth-child(2) {
-    animation: move 3s ease-out 2s infinite;
+  animation: move 3s ease-out 2s infinite;
 }
 
 .chevron:before,
 .chevron:after {
-    content: " ";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 51%;
-    background: #3a563f;
+  content: " ";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #d5a675;
 }
 
 .chevron:before {
-    left: 0;
-    transform: skew(0deg, 30deg);
+  left: 0;
+  transform: skew(0deg, 30deg);
 }
 
 .chevron:after {
-    right: 0;
-    width: 50%;
-    transform: skew(0deg, -30deg);
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
 }
 
 @keyframes move {
-    25% {
-        opacity: 1;
-    }
-    33% {
-        opacity: 1;
-        transform: translateY(30px);
-    }
-    67% {
-        opacity: 1;
-        transform: translateY(40px);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-    }
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
 }

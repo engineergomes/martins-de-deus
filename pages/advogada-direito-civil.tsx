@@ -6,6 +6,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import Advantages from "../components/Advantages";
 import CivilServices from "../components/CivilServices";
+import { CleanButton } from "../components/CleanButton";
 
 const DireitoCivil: NextPage = () => {
   return (
@@ -66,7 +67,12 @@ const DireitoCivil: NextPage = () => {
 
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-4 justify-start items-center sm:flex-row">
-                <a
+                <CleanButton
+                  text={"Falar com o Advogado"}
+                  href={"https://wa.me/5548984727432"}
+                  whatsapp={true}
+                />
+                {/* <a
                   href="https://wa.me/5548984727432"
                   target="_blank"
                   rel="noreferrer"
@@ -74,7 +80,7 @@ const DireitoCivil: NextPage = () => {
                 >
                   <FontAwesomeIcon icon={faWhatsapp} width={28} height={28} />
                   <p>Falar com a Advogado</p>
-                </a>
+                </a> */}
                 <a href="tel:48984110903" className="text-center">
                   (48) 98472-7432
                 </a>
