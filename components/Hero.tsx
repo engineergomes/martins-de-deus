@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { CleanButton } from "./CleanButton";
 
 function Hero() {
   return (
@@ -36,13 +37,19 @@ function Hero() {
             confiança e tranquilidade para as pessoas e empresas assessoradas.
           </h2>
         </div>
+        <CleanButton
+          text={"ENTRAR EM CONTATO"}
+          href={
+            "https://api.whatsapp.com/send/?phone=5548984727432&text&type=phone_number&app_absent=0"
+          }
+        />
         <Image
           data-aos="fade-left"
           className="drop-shadow-lg rounded-xl row-start-1 lg:col-start-2"
           src="/img15.png"
           alt="Advogados"
-          height={733}
-          width={800}
+          height={750}
+          width={750}
         />
       </div>
 
