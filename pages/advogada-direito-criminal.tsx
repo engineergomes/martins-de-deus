@@ -7,6 +7,7 @@ import React from "react";
 import FamilyRightServices from "../components/FamilyRightServices";
 import Advantages from "../components/Advantages";
 import CriminalServices from "../components/CriminalServices";
+import { CleanButton } from "../components/CleanButton";
 
 const DireitoDaFamilia: NextPage = () => {
   return (
@@ -48,7 +49,7 @@ const DireitoDaFamilia: NextPage = () => {
         <meta name="theme-color" content="#ffffff" />
       </Head>
 
-      <div className="flex flex-col gap-10 overflow-hidden pb-16">
+      <div className="flex flex-col gap-10 overflow-hidden pb-16 text-white">
         <div className="flex flex-col  lg:grid lg:grid-cols-2 max-w-[1360px] mx-auto relative py-8">
           <div className="flex flex-col gap-8 max-w-[600px] px-8 py-5 rounded-3xl opacity-95 z-20 sm:py-10">
             <div className="flex flex-col gap-4 max-w-3xl opacity-100">
@@ -65,15 +66,11 @@ const DireitoDaFamilia: NextPage = () => {
 
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-4 justify-start items-center sm:flex-row">
-                <a
-                  href="https://wa.me/5548984727432"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-2 justify-center bg-green-500 font-bold py-3 px-6 rounded-3xl md:text-lg hover:bg-green-200 w-fit"
-                >
-                  <FontAwesomeIcon icon={faWhatsapp} width={28} height={28} />
-                  <p>Falar com a Advogada</p>
-                </a>
+                <CleanButton
+                  text={"Falar com a Advogada"}
+                  href={"https://wa.me/5548984727432"}
+                  whatsapp={true}
+                />
                 <a href="tel:48984110903" className="text-center">
                   (48) 98472-7432
                 </a>

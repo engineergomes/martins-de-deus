@@ -42,6 +42,11 @@ function Header() {
           href: "/advogada-direito-previdenciario",
           as: "advogada-direito-previdenciario",
         },
+        {
+          name: "Direito Empresarial",
+          href: "/advogada-direito-empresarial",
+          as: "advogada-direito-empresarial",
+        },
       ],
     },
     { name: "Equipe", href: "/team", as: "/equipe" },

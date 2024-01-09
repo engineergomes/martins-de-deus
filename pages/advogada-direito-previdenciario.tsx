@@ -7,6 +7,7 @@ import React from "react";
 import FamilyRightServices from "../components/FamilyRightServices";
 import Advantages from "../components/Advantages";
 import PrevServices from "../components/PrevServices";
+import { CleanButton } from "../components/CleanButton";
 
 const DireitoDaFamilia: NextPage = () => {
   return (
@@ -65,15 +66,11 @@ const DireitoDaFamilia: NextPage = () => {
 
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-4 justify-start items-center sm:flex-row">
-                <a
-                  href="https://wa.me/5548984727432"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-2 justify-center bg-green-500 font-bold py-3 px-6 rounded-3xl md:text-lg hover:bg-green-200 w-fit"
-                >
-                  <FontAwesomeIcon icon={faWhatsapp} width={28} height={28} />
-                  <p>Falar com a Advogada</p>
-                </a>
+                <CleanButton
+                  text={"Falar com a Advogada"}
+                  href={"https://wa.me/5548984727432"}
+                  whatsapp={true}
+                />
                 <a href="tel:48984110903" className="text-center">
                   (48) 98472-7432
                 </a>

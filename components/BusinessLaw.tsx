@@ -72,8 +72,8 @@ function BusinessLaw() {
     <>
       <div className="relative">
         <div id="ver-mais" className="absolute -top-28"></div>
-        <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5">
-          <h2 className="text-3xl sm:text-5xl font-bold text-center text-[#d5a675] max-w-full">
+        <div className="flex flex-col max-w-[1360px] mx-auto gap-10 items-center justify-center px-5 text-[#d5a675]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-center max-w-full">
             Áreas de atuação do Advogado Empresarial
           </h2>
 
