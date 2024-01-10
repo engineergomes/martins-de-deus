@@ -83,7 +83,8 @@ function BusinessLaw() {
                 key={index}
                 className="grid grid-cols-1 grid-rows-[1fr,1fr,1fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center
                  bg-[#28] border border-[#cfaa7d] hover:border-[#CFAA7D] drop-shadow hover:drop-shadow-xl transition 
-                 duration-300 ease-in-out text-[#cfaa7d]"
+                 duration-300 ease-in-out text-[#								place-items-center bg-[#282828] border-4 border-[#cfaa7d] text-[#cfaa7d] hover:border-[#CFAA7D] drop-shadow
+cfaa7d]"
               >
                 <div className="h-16 w-16 lg:h-24 lg:w-24 fill-[#CFAA7D] relative">
                   {item.icon}
