@@ -89,7 +89,10 @@ function CriminalServices() {
               <Disclosure key={index}>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 gap-4 px-4 hover:border-[#ffaa00] bg-[#3a563f] text-[#CFAA7D] fill-[#CFAA7D]">
+                    <Disclosure.Button
+                      className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 gap-4 
+                    px-4 hover:border-[#ffaa00] bg-[#424530] text-[#CFAA7D] fill-[#CFAA7D]"
+                    >
                       <div className="h-8 w-8 relative">{item.icon}</div>
                       <p className="text-left">{item.name}</p>
                       <FontAwesomeIcon
@@ -102,7 +105,7 @@ function CriminalServices() {
                                             `}
                       />
                     </Disclosure.Button>
-                    <Disclosure.Panel className="bg-[#CFAA7D] flex flex-col text-center p-4">
+                    <Disclosure.Panel className="bg-[#CFAA7D] flex flex-col text-[#282828] text-center p-4">
                       {item.text}
                     </Disclosure.Panel>
                   </>

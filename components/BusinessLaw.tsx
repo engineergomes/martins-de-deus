@@ -82,9 +82,8 @@ function BusinessLaw() {
               <div
                 key={index}
                 className="grid grid-cols-1 grid-rows-[1fr,1fr,1fr] gap-0 rounded p-5 lg:p-10 w-full h-full place-items-center
-                 bg-[#28] border border-[#cfaa7d] hover:border-[#CFAA7D] drop-shadow hover:drop-shadow-xl transition 
-                 duration-300 ease-in-out text-[#								place-items-center bg-[#282828] border-4 border-[#cfaa7d] text-[#cfaa7d] hover:border-[#CFAA7D] drop-shadow
-cfaa7d]"
+                 bg-[#28] border-[#cfaa7d] hover:border-[#CFAA7D] drop-shadow hover:drop-shadow-xl transition 
+                 duration-300 ease-in-out	border-4 text-[#cfaa7d]"
               >
                 <div className="h-16 w-16 lg:h-24 lg:w-24 fill-[#CFAA7D] relative">
                   {item.icon}
@@ -101,7 +100,7 @@ cfaa7d]"
                   <>
                     <Disclosure.Button
                       className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 
-                    gap-4 px-4 hover:border-[#ffaa00] bg-[#3a563f] text-[#CFAA7D] fill-[#CFAA7D]"
+                    gap-4 px-4 hover:border-[#ffaa00] bg-[#424530] text-[#CFAA7D] fill-[#CFAA7D]"
                     >
                       <div className="h-8 w-8 relative">{item.icon}</div>
                       <p className="text-left">{item.name}</p>
@@ -115,7 +114,7 @@ cfaa7d]"
                                             `}
                       />
                     </Disclosure.Button>
-                    <Disclosure.Panel className="bg-[#CFAA7D] flex flex-col text-center p-4">
+                    <Disclosure.Panel className="bg-[#CFAA7D] flex flex-col text-center text-[#282828] p-4">
                       {item.text}
                     </Disclosure.Panel>
                   </>

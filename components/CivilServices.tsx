@@ -96,7 +96,7 @@ function CivilServices() {
                   <>
                     <Disclosure.Button
                       className="grid grid-cols-[1fr,10fr,1fr]  items-center rounded py-4 border-2 
-										gap-4 px-4 hover:border-[#ffaa00] bg-[#414530] text-[#CFAA7D] fill-[#CFAA7D]"
+										gap-4 px-4 hover:border-[#ffaa00] bg-[#424530] text-[#CFAA7D] fill-[#CFAA7D]"
                     >
                       <div className="h-8 w-8 relative">{item.icon}</div>
                       <p className="text-left">{item.name}</p>
@@ -110,7 +110,7 @@ function CivilServices() {
                                             `}
                       />
                     </Disclosure.Button>
-                    <Disclosure.Panel className="bg-[#CFAA7D] flex flex-col text-center p-4">
+                    <Disclosure.Panel className="bg-[#CFAA7D] flex flex-col text-center text-[#282828] p-4">
                       {item.text}
                     </Disclosure.Panel>
                   </>
