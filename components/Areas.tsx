@@ -23,7 +23,7 @@ function Areas() {
 						<Fragment key={index}>
 							{item.hasAds ? (
 								<Link
-									className="flex flex-col items-center justify-center gap-3 bg-transparent w-full h-full py-8 border-4 border-transparent border-[#CFAA7D] transition-all duration-300  hover:bg-[#424530] rounded"
+									className="flex flex-col items-center justify-center gap-3 bg-transparent w-full h-full py-8 border border-[#CFAA7D] transition-all duration-300  hover:bg-[#424530] rounded"
 									href={item.href}
 								>
 									<Image
@@ -42,7 +42,7 @@ function Areas() {
 										setIsModalOpen(true);
 										setState(item.name);
 									}}
-									className="flex flex-col items-center justify-center gap-3 bg-transparent w-full h-full py-8 border-4 border-transparent border-[#CFAA7D] transition-all duration-300 hover:bg-[#424530] rounded"
+									className="flex flex-col items-center justify-center gap-3 bg-transparent w-full h-full py-8 border border-[#CFAA7D] transition-all duration-300 hover:bg-[#424530] rounded"
 								>
 									<Image
 										src={item.src}

@@ -35,7 +35,7 @@ function AreaModal({
 						leaveFrom="opacity-100"
 						leaveTo="opacity-0"
 					>
-						<div className="fixed inset-0 bg-[#CFAA7D] bg-opacity-25 backdrop-blur-sm" />
+						<div className="fixed inset-0 bg-[#282828] bg-opacity-70 backdrop-blur-sm" />
 					</Transition.Child>
 
 					<div className="fixed inset-0 overflow-y-auto">
@@ -49,7 +49,7 @@ function AreaModal({
 								leaveFrom="opacity-100 scale-100"
 								leaveTo="opacity-0 scale-95"
 							>
-								<Dialog.Panel className="flex flex-col gap-6 w-full max-w-4xl transform overflow-hidden bg-white px-10 text-left align-middle shadow-xl transition-all z-20 py-16">
+								<Dialog.Panel className="flex flex-col gap-6 w-full max-w-4xl transform overflow-hidden bg-[#FDFDFD] px-10 text-left align-middle shadow-xl transition-all z-20 py-16">
 									<Dialog.Title
 										as="h3"
 										className="text-center text-2xl text-[#CFAA7D] font-bold leading-6 fixed"
