@@ -49,8 +49,8 @@ function Header() {
 				},
 			],
 		},
-		{ name: "Equipe", href: "/team", as: "/equipe" },
 		{ name: "Contato", href: "/contato", as: "/contato" },
+		{ name: "Equipe", href: "/team", as: "/equipe" },
 	];
 
 	// detect whether user has scrolled the page down by 10px
@@ -64,7 +64,7 @@ function Header() {
 
 	return (
 		<header
-			className={`fixed w-full  bg-[#282828] py-3 lg:py-3  md:px-10 2xl:px-0 z-40 uppercase text-sm lg:px-10 xl:text-base transition duration-300 ease-in-out border-b-[1px] border-[#d5a675]
+			className={`fixed w-full  bg-[#282828] py-3 lg:py-3  md:px-10 2xl:px-0 z-40 uppercase text-sm lg:px-10 xl:text-base transition duration-300 ease-in-out border-b-[1px] border-[#CFAA7D]
             ${!top && "bg-opacity-90 backdrop-blur-sm shadow-lg"}
       `}
 		>
@@ -77,20 +77,18 @@ function Header() {
 							className="flex items-center justify-start gap-3"
 							href="/"
 						>
-							<div className="relative w-[220px] h-[80px] lg:w-[250px] lg:h-[100px] flex items-center">
+							<div className="relative w-[160px] h-[60px] lg:w-[220px] lg:h-[80px] flex items-center">
 								<Image
-									width={50}
-									height={50}
-									src={"/symbol.png"}
+									fill
+									src={"/logo-deus-aguiar-full.png"}
 									alt={"Logo"}
-									className="mr-3 self-start mt-4"
 								/>
-								<Image
+								{/* <Image
 									width={120}
 									height={70}
 									src={"/logo.png"}
 									alt={"Logo"}
-								/>
+								/> */}
 							</div>
 						</Link>
 
