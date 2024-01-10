@@ -1,12 +1,25 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+	faEnvelope,
+	faLocationDot,
+	faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { useWindow } from "../hooks/useWindow";
 
 function Footer() {
 	const date = new Date();
+	const { isMobile } = useWindow();
 
 	return (
-		<div className="bg-[#FDFDFD] pt-10 pb-3 flex flex-col gap-6 px-5">
+		<div
+			className="bg-[#FDFDFD] pt-10 pb-3 flex flex-col gap-6 px-5 border-t-2 border-[#CFAA7D] bg-no-repeat bg-cover relative"
+			style={{
+				backgroundImage: isMobile
+					? ""
+					: `url('./bg-effect-footer.png')`,
+			}}
+		>
 			<div className="mx-auto max-w-[1360px] flex flex-col justify-center lg:flex-row lg:justify-around lg:w-full gap-3 lg:gap-0">
 				<div className="flex flex-col justify-between gap-2 lg:gap-0">
 					<h2 className="text-3xl font-bold text-[#CFAA7D]">
@@ -17,16 +30,37 @@ function Footer() {
 							href="https://wa.me/5548984727432"
 							target="_blank"
 							rel="noreferrer"
+							className="text-[#CFAA7D] flex items-center justify-start gap-[6px]"
 						>
-							WhatsApp: (48) 9 8472-7432
+							<FontAwesomeIcon
+								icon={faWhatsapp}
+								className="w-[26px] h-[26px] "
+							/>{" "}
+							(48) 9 8472-7432
 						</a>
-						<a href="tel:+554833743278">Telefone: (48) 3374-3278</a>
+						<a
+							href="tel:+554833743278"
+							className="text-[#CFAA7D] flex items-center justify-start gap-2"
+						>
+							{" "}
+							<FontAwesomeIcon
+								icon={faPhone}
+								className="w-6 h-6 "
+							/>{" "}
+							(48) 3374-3278
+						</a>
 						<a
 							href="mailto:contato@contato@martinsdedeus.com.br"
 							target="_blank"
 							rel="noreferrer"
+							className="text-[#CFAA7D] flex items-center justify-start gap-2"
 						>
-							E-mail: contato@martinsdedeus.com.br
+							{" "}
+							<FontAwesomeIcon
+								icon={faEnvelope}
+								className="w-6 h-6 "
+							/>{" "}
+							contato@martinsdedeus.com.br
 						</a>
 					</div>
 
@@ -34,11 +68,13 @@ function Footer() {
 						href="https://www.instagram.com/martinsdedeus.adv/"
 						target="_blank"
 						rel="noreferrer"
+						className="text-[#CFAA7D] flex items-center justify-start gap-[6px]"
 					>
 						<FontAwesomeIcon
 							icon={faInstagram}
-							className="h-10 w-10"
+							className="w-7 h-7 lg:h-10 lg:w-10 -m-[2px]"
 						/>
+						martinsdedeus.adv
 					</a>
 				</div>
 
@@ -69,7 +105,7 @@ function Footer() {
 				</div>
 			</div>
 			<p className="text-center text-xs">
-				{`©${date.getFullYear()} por Martins de Deus Advogados Associados - Santa Catarina,
+				{`©${date.getFullYear()} por Deus e Aguiar Advocacia - Santa Catarina,
                 Brasil`}
 			</p>
 		</div>
