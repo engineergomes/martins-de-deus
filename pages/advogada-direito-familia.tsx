@@ -21,7 +21,7 @@ const DireitoDaFamilia: NextPage = () => {
 					name="description"
 					content="Deus e Aguiar Advocacia atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
 				/>
-				<title>Martins de Deus | Direito da Família</title>
+				<title>Deus e Aguiar Direito da Família</title>
 
 				<link
 					rel="apple-touch-icon"

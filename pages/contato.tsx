@@ -17,7 +17,7 @@ const Contato: NextPage = () => {
 					name="description"
 					content="Deus e Aguiar Advocacia atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
 				/>
-				<title>Martins de Deus | Contato</title>
+				<title>Deus e Aguiar Contato</title>
 
 				<link
 					rel="apple-touch-icon"
