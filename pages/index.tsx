@@ -4,6 +4,7 @@ import Script from "next/script";
 import Areas from "../components/Areas";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
+import GoogleReviews from "../components/GoogleReviews";
 
 const Home: NextPage = () => {
 	return (
@@ -26,10 +27,10 @@ const Home: NextPage = () => {
 				></meta>
 				<meta
 					name="description"
-					content="Martins de Deus Advogados Associados atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
+					content="Deus e Aguiar Advogados Associados atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
 				/>
 
-				<title>Martins de Deus</title>
+				<title>Deus e Aguiar</title>
 
 				<link
 					rel="apple-touch-icon"
@@ -60,9 +61,10 @@ const Home: NextPage = () => {
 				<meta name="theme-color" content="#ffffff" />
 			</Head>
 
-			<div className="mx-auto max-w-[1360px] flex flex-col gap-12 py-5 lg:py-12 px-5 pt-8">
+			<div className="mx-auto flex flex-col gap-12 pt-5  lg:pt-12">
 				<Hero />
 				<Areas />
+				<GoogleReviews />
 			</div>
 		</>
 	);
