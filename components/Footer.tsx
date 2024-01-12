@@ -13,7 +13,7 @@ function Footer() {
 
 	return (
 		<div
-			className="bg-[#FDFDFD] pt-10 pb-3 flex flex-col gap-6 px-5 border-t-2 border-[#CFAA7D] bg-no-repeat bg-cover relative"
+			className="bg-[#FDFDFD] pt-10 pb-3 flex flex-col gap-6 px-5 border-t-2 border-[#CFAA7D] bg-no-repeat bg-cover bg-center relative"
 			style={{
 				backgroundImage: isMobile
 					? ""
@@ -21,31 +21,29 @@ function Footer() {
 			}}
 		>
 			<div className="mx-auto max-w-[1360px] flex flex-col justify-center lg:flex-row lg:justify-around lg:w-full gap-3 lg:gap-0">
-				<div className="flex flex-col justify-between gap-2 lg:gap-0">
-					<h2 className="text-3xl font-bold text-[#CFAA7D]">
-						Fale Conosco
-					</h2>
+				<div className="flex flex-col justify-between gap-2 lg:gap-0 text-black ">
+					<h2 className="text-3xl font-bold ">Fale Conosco</h2>
 					<div className="flex flex-col gap-2">
 						<a
 							href="https://wa.me/5548984727432"
 							target="_blank"
 							rel="noreferrer"
-							className="text-[#CFAA7D] flex items-center justify-start gap-[6px]"
+							className=" flex items-center justify-start gap-[6px]"
 						>
 							<FontAwesomeIcon
 								icon={faWhatsapp}
-								className="w-[26px] h-[26px] "
+								className="w-[26px] h-[26px] text-[#CFAA7D]"
 							/>{" "}
 							(48) 9 8472-7432
 						</a>
 						<a
 							href="tel:+554833743278"
-							className="text-[#CFAA7D] flex items-center justify-start gap-2"
+							className=" flex items-center justify-start gap-2"
 						>
 							{" "}
 							<FontAwesomeIcon
 								icon={faPhone}
-								className="w-6 h-6 "
+								className="w-6 h-6 text-[#CFAA7D]"
 							/>{" "}
 							(48) 3374-3278
 						</a>
@@ -53,12 +51,12 @@ function Footer() {
 							href="mailto:contato@contato@martinsdedeus.com.br"
 							target="_blank"
 							rel="noreferrer"
-							className="text-[#CFAA7D] flex items-center justify-start gap-2"
+							className=" flex items-center justify-start gap-2"
 						>
 							{" "}
 							<FontAwesomeIcon
 								icon={faEnvelope}
-								className="w-6 h-6 "
+								className="w-6 h-6 text-[#CFAA7D]"
 							/>{" "}
 							contato@martinsdedeus.com.br
 						</a>
@@ -68,11 +66,11 @@ function Footer() {
 						href="https://www.instagram.com/martinsdedeus.adv/"
 						target="_blank"
 						rel="noreferrer"
-						className="text-[#CFAA7D] flex items-center justify-start gap-[6px]"
+						className=" flex items-center justify-start gap-[6px]"
 					>
 						<FontAwesomeIcon
 							icon={faInstagram}
-							className="w-7 h-7 lg:h-10 lg:w-10 -m-[2px]"
+							className="w-7 h-7 lg:h-10 lg:w-10 -m-[2px] text-[#CFAA7D]"
 						/>
 						martinsdedeus.adv
 					</a>
