@@ -30,15 +30,15 @@ export const lawyers = [
     about:
       "Victor Aguiar de Melo é advogado, graduado em Direito pela Universidade do Vale do Itajaí, associado do Escritório Deus e Aguiar Advocacia, atuante na área do Direito Civil, com especial enfoque nas relações de consumo, no assessoramento empresarial e nas análises contratuais. Na prática da advocacia, preza por um atendimento digno e diferenciado aos clientes com uma atuação profissional com elevado senso crítico, ética, e uma busca constante pela melhor alternativa e pela Garantia dos Direitos dos clientes.",
   },
-  {
-    name: "LEONORA SOUZA",
-    imgSrc: "/img7.png",
-    oab: "OAB/SC 66.629",
-    graduation: "Graduada pela Universidade do Vale do Itajaí ",
-    pos: "Pós-graduanda em Criminologia e Direito Penal pela PUC do Rio Grande do Sul",
-    about:
-      "Leonora Souza é advogada, graduada pela Universidade do Vale do Itajaí e especializanda em Criminologia e Direito Penal pela PUC do Rio Grande do Sul, associada do Escritório Deus e Aguiar Advocacia, atuante na área de Direito Penal e Processual Penal com foco especial em processos criminais comuns e crimes da lei especial de tóxicos. Na prática da advocacia, preza por um atendimento digno e respeitoso com enfoque na garantia dos direitos humanos do acusado e das vítimas.",
-  },
+  // {
+  //   name: "LEONORA SOUZA",
+  //   imgSrc: "/img7.png",
+  //   oab: "OAB/SC 66.629",
+  //   graduation: "Graduada pela Universidade do Vale do Itajaí ",
+  //   pos: "Pós-graduanda em Criminologia e Direito Penal pela PUC do Rio Grande do Sul",
+  //   about:
+  //     "Leonora Souza é advogada, graduada pela Universidade do Vale do Itajaí e especializanda em Criminologia e Direito Penal pela PUC do Rio Grande do Sul, associada do Escritório Deus e Aguiar Advocacia, atuante na área de Direito Penal e Processual Penal com foco especial em processos criminais comuns e crimes da lei especial de tóxicos. Na prática da advocacia, preza por um atendimento digno e respeitoso com enfoque na garantia dos direitos humanos do acusado e das vítimas.",
+  // },
   {
     name: "Marcella Schmitz",
     imgSrc: "/img8.png",
