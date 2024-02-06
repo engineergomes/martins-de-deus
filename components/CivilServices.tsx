@@ -49,9 +49,9 @@ function CivilServices() {
       text: "Reparação para aquelas situações que atingem além dos bens materiais.",
     },
     {
-      name: "Empresarial",
+      name: "Direito Médico",
       icon: <Empresarial />,
-      text: "Para abrir uma sociedade e mantê-la funcionando, com elaboração de contrato social e pareceres técnicos.",
+      text: "Defendemos seus direitos contra negativas de planos de saúde, asseguramos tratamentos, medicamentos e indenizações.",
     },
     {
       name: "Cobranças",
