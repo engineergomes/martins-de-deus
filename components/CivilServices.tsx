@@ -6,6 +6,7 @@ import {
   Contratos,
   DanosMateriais,
   DanosMorais,
+  DireitoMedico,
   DivorcioLitigioso,
   DivorciosExtrajudicial,
   Empresarial,
@@ -49,9 +50,9 @@ function CivilServices() {
       text: "Reparação para aquelas situações que atingem além dos bens materiais.",
     },
     {
-      name: "Empresarial",
-      icon: <Empresarial />,
-      text: "Para abrir uma sociedade e mantê-la funcionando, com elaboração de contrato social e pareceres técnicos.",
+      name: "Direito Médico",
+      icon: <DireitoMedico />,
+      text: "Negativa de plano de saúde, fornecimentos contra o Estado e indenização por erro médico.",
     },
     {
       name: "Cobranças",
