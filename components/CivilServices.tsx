@@ -6,6 +6,7 @@ import {
   Contratos,
   DanosMateriais,
   DanosMorais,
+  DireitoMedico,
   DivorcioLitigioso,
   DivorciosExtrajudicial,
   Empresarial,
@@ -50,8 +51,8 @@ function CivilServices() {
     },
     {
       name: "Direito Médico",
-      icon: <Empresarial />,
-      text: "Defendemos seus direitos contra negativas de planos de saúde, asseguramos tratamentos, medicamentos e indenizações.",
+      icon: <DireitoMedico />,
+      text: "Negativa de plano de saúde, fornecimentos contra o Estado e indenização por erro médico.",
     },
     {
       name: "Cobranças",
