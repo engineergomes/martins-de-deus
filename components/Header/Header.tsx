@@ -23,8 +23,8 @@ function Header() {
         },
         {
           name: "Direito Civil",
-          href: "/advogada-direito-civil",
-          as: "advogada-direito-civil",
+          href: "/advogado-direito-civil",
+          as: "advogado-direito-civil",
         },
         // {
         //   name: "Direito Criminal",
