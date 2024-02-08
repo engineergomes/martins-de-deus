@@ -2,7 +2,7 @@ export const areas = [
   {
     name: "Civil",
     hasAds: true,
-    href: "/advogada-direito-civil",
+    href: "/advogado-direito-civil",
     src: "/civil.png",
     title: "Direito Civil",
     text: (

@@ -52,7 +52,7 @@ function CivilServices() {
     {
       name: "Direito Médico",
       icon: <DireitoMedico />,
-      text: "Negativa de plano de saúde, fornecimentos contra o Estado e indenização por erro médico.",
+      text: "Negativa de plano de saúde, negativa de fornecimento de procedimentos e medicamentos pelo Estado e indenização por erro médico.",
     },
     {
       name: "Cobranças",
