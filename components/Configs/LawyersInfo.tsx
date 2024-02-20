@@ -67,12 +67,14 @@ export const lawyers = [
       "Assessora os demais membros da equipe na produção de peças jurídicas, elaboração de documentos e diligências. Na prática da advocacia contribui para fortalecer o entendimento dos direitos e valores da sociedade. Buscando prezar pela equidade e verdade.",
   },
 
-  // {
-  // 	name: "DANIEL DA CUNHA JUNIOR",
-  // 	imgSrc: "/img14.png",
-  // 	oab: "Estagiário de Direito",
-  // 	graduation:
-  // 		"Graduando da Universidade do Sul de Santa Catarina - UNISUL",
-  // 	about: "Daniel é estudante de direito e, como estagiário, auxilia os demais membros do escritório na produção de peças jurídicas, elaboração de documentos e diligências. Com raciocínio rápido e objetivo, desenvolve as tarefas que lhe são confiadas com agilidade e assertividade e tem uma carreira de muito sucesso pela frente.",
-  // },
+  {
+    name: "ANELISE RODRIGUES CAETANO",
+    imgSrc: "/anelise2.png",
+    oab: "OAB/SC 58.524",
+    graduation:
+      "Graduada em Direito pela Universidade Federal de Santa Catarina (UFSC)",
+    pos: "Pós Graduada em Direito Processual Civil pela Faculdade IBMEC São Paulo.",
+    about:
+      "Anelise Caetano é advogada, graduada em Direito pela Universidade Federal de Santa Catarina. Associada do Escritório Deus e Aguiar Advocacia, com atuação direcionada especialmente para a área criminal, mas também auxiliando nas demandas cíveis, eis que possui experiência em extrajudicial e contencioso cível, bem como direito de família e sucessões. No exercício da advocacia desde 2020, preza por uma atuação profissional minuciosa, ética e respeitosa com cada um de seus clientes.",
+  },
 ];

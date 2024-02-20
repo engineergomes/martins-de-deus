@@ -47,6 +47,11 @@ function Header() {
           href: "/advogado-direito-empresarial",
           as: "advogado-direito-empresarial",
         },
+        {
+          name: "Direito Criminal",
+          href: "/advogada-direito-criminal",
+          as: "advogada-direito-criminal",
+        },
       ],
     },
     { name: "Contato", href: "/contato", as: "/contato" },
