@@ -87,7 +87,7 @@ const DireitoCriminal: NextPage = () => {
                   className="rounded drop-shadow-lg"
                   width={500}
                   height={870}
-                  src="/anelise3.png"
+                  src="/anelise2.png"
                   alt="Advogada"
                 />
               </div>
