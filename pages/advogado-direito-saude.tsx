@@ -4,11 +4,13 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
+import FamilyRightServices from "../components/FamilyRightServices";
 import Advantages from "../components/Advantages";
-import CivilServices from "../components/CivilServices";
 import { CleanButton } from "../components/CleanButton";
+import CriminalServices from "../components/CriminalServices";
+import HealthServices from "../components/HealthServices";
 
-const DireitoCivil: NextPage = () => {
+const DireitoCriminal: NextPage = () => {
   return (
     <>
       <Head>
@@ -21,7 +23,7 @@ const DireitoCivil: NextPage = () => {
           name="description"
           content="Deus e Aguiar Advocacia atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
         />
-        <title>Deus e Aguiar Direito Civil</title>
+        <title>Deus e Aguiar Direito Criminal</title>
 
         <link
           rel="apple-touch-icon"
@@ -48,24 +50,24 @@ const DireitoCivil: NextPage = () => {
         <meta name="theme-color" content="#ffffff" />
       </Head>
 
-      <div className="flex flex-col gap-10 overflow-hidden pb-16 ">
+      <div className="flex flex-col gap-10 overflow-hidden pb-16 text-white">
         <div
           className="flex flex-col py-8 border-b border-[#CFAA7D] w-full"
           style={{ backgroundImage: `url('./bg-effect.png')` }}
         >
           <div className="flex flex-col  lg:grid lg:grid-cols-2  mx-auto relative w-full max-w-[1360px]">
-            <div className="flex flex-col gap-8 max-w-[600px] px-8 py-5 rounded-3xl opacity-95 z-20 sm:py-10 text-white ">
+            <div className="flex flex-col gap-8 max-w-[600px] px-8 py-5 rounded-3xl opacity-95 z-20 sm:py-10">
               <div className="flex flex-col gap-4 max-w-3xl opacity-100">
-                <p className="text-xl lg:text-2xl">Fale com nosso</p>
+                <p className="text-xl lg:text-2xl">Fale com nossa</p>
                 <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
                   Advogado especialista em <br />
-                  <span className="text-[#CFAA7D]">
-                    Direito <br className="hidden lg:flex" /> Civil.
-                  </span>
+                  <span className="text-[#CFAA7D]">Direito de Saúde</span>
                 </h2>
                 <p className="text-xl md:text-2xl max-w-[40ch]">
-                  Receba agora um atendimento personalizado de um advogado que
-                  atende causas de direito Civil todos os dias.
+                  Teve negativa em fornecimento de medicamentos, tratamentos,
+                  procedimentos médicos ou cirurgias indicadas por médico(a)?
+                  Clique abaixo para falar com nossos profissionais
+                  especialistas na área.
                 </p>
               </div>
 
@@ -76,28 +78,20 @@ const DireitoCivil: NextPage = () => {
                     href={"https://wa.me/5548984727432"}
                     whatsapp={true}
                   />
-                  {/* <a
-                  href="https://wa.me/5548984727432"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-2 justify-center bg-green-500 font-bold py-3 px-6 rounded-3xl md:text-lg hover:bg-green-200 w-fit"
-                >
-                  <FontAwesomeIcon icon={faWhatsapp} width={28} height={28} />
-                  <p>Falar com a Advogado</p>
-                </a> */}
                   <a href="tel:48984110903" className="text-center">
                     (48) 98472-7432
                   </a>
                 </div>
               </div>
             </div>
-            <div className="flex h-full w-full p-10 justify-center">
-              <div className="relative w-[250px] h-[250px] lg:h-full lg:w-full">
+            <div className="flex justify-center h-full w-full p-10">
+              <div className="relative lg:h-full lg:w-full">
                 <Image
                   className="rounded drop-shadow-lg"
+                  width={500}
+                  height={870}
                   src="/ads-civil.png"
                   alt="Advogado"
-                  fill
                 />
               </div>
             </div>
@@ -106,7 +100,7 @@ const DireitoCivil: NextPage = () => {
                 href="#ver-mais"
                 className="h-full relative flex flex-col gap-1 justify-center items-center font-bold uppercase text-center text-xl z-20  w-min px-8 pb-14 pt-4 "
               >
-                <p className=" whitespace-nowrap text-white">Ver mais</p>
+                <p className=" whitespace-nowrap ">Ver mais</p>
                 <div className="flex absolute bottom-24 items-center justify-center">
                   <div className="chevron "></div>
                   <div className="chevron "></div>
@@ -116,10 +110,10 @@ const DireitoCivil: NextPage = () => {
             </div>
           </div>
         </div>
-        <CivilServices />
+        <HealthServices />
         <Advantages />
       </div>
     </>
   );
 };
-export default DireitoCivil;
+export default DireitoCriminal;

@@ -289,6 +289,22 @@ export function Privado({ ...props }) {
   );
 }
 
+export function Demora({ ...props }) {
+  return (
+    <>
+      <Image src={"/demora.png"} alt="Pasta" fill />
+    </>
+  );
+}
+
+export function Hospital({ ...props }) {
+  return (
+    <>
+      <Image src={"/hospital.png"} alt="Pasta" fill />
+    </>
+  );
+}
+
 export function Complience({ ...props }) {
   return (
     <>
