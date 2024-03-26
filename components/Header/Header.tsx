@@ -26,11 +26,6 @@ function Header() {
           href: "/advogado-direito-civil",
           as: "advogado-direito-civil",
         },
-        // {
-        //   name: "Direito Criminal",
-        //   href: "/advogada-direito-criminal",
-        //   as: "advogada-direito-criminal",
-        // },
 
         {
           name: "Direito Trabalhista",
@@ -51,6 +46,11 @@ function Header() {
           name: "Direito Criminal",
           href: "/advogada-direito-criminal",
           as: "advogada-direito-criminal",
+        },
+        {
+          name: "Direito de Saúde",
+          href: "/advogada-direito-saude",
+          as: "advogado-direito-saude",
         },
       ],
     },
