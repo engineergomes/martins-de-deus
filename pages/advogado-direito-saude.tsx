@@ -10,7 +10,7 @@ import { CleanButton } from "../components/CleanButton";
 import CriminalServices from "../components/CriminalServices";
 import HealthServices from "../components/HealthServices";
 
-const DireitoCriminal: NextPage = () => {
+const DireitoSaude: NextPage = () => {
   return (
     <>
       <Head>
@@ -116,4 +116,4 @@ const DireitoCriminal: NextPage = () => {
     </>
   );
 };
-export default DireitoCriminal;
+export default DireitoSaude;
