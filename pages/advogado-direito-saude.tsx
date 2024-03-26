@@ -7,7 +7,6 @@ import React from "react";
 import FamilyRightServices from "../components/FamilyRightServices";
 import Advantages from "../components/Advantages";
 import { CleanButton } from "../components/CleanButton";
-import CriminalServices from "../components/CriminalServices";
 import HealthServices from "../components/HealthServices";
 
 const DireitoSaude: NextPage = () => {
@@ -23,7 +22,7 @@ const DireitoSaude: NextPage = () => {
           name="description"
           content="Deus e Aguiar Advocacia atuam nas áreas de família, cível, criminal, imobiliária e empresarial, entrega segurança jurídica em todas as demandas judiciais e extrajudiciais dos clientes."
         />
-        <title>Deus e Aguiar Direito Criminal</title>
+        <title>Deus e Aguiar Direito de Saúde</title>
 
         <link
           rel="apple-touch-icon"
