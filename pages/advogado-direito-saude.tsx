@@ -57,7 +57,7 @@ const DireitoSaude: NextPage = () => {
           <div className="flex flex-col  lg:grid lg:grid-cols-2  mx-auto relative w-full max-w-[1360px]">
             <div className="flex flex-col gap-8 max-w-[600px] px-8 py-5 rounded-3xl opacity-95 z-20 sm:py-10">
               <div className="flex flex-col gap-4 max-w-3xl opacity-100">
-                <p className="text-xl lg:text-2xl">Fale com nossa</p>
+                <p className="text-xl lg:text-2xl">Fale com nosso</p>
                 <h2 className="text-3xl md:text-5xl font-extrabold lg:text-7xl">
                   Advogado especialista em <br />
                   <span className="text-[#CFAA7D]">Direito de Saúde</span>
