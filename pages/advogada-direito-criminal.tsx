@@ -82,7 +82,7 @@ const DireitoCriminal: NextPage = () => {
               </div>
             </div>
             <div className="flex justify-center h-full w-full p-10">
-              <div className="relative lg:h-full lg:w-full">
+              <div className="relative lg:h-full lg:w-full object-cover">
                 <Image
                   className="rounded drop-shadow-lg"
                   width={500}

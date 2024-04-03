@@ -94,7 +94,7 @@ const DireitoCivil: NextPage = () => {
             <div className="flex h-full w-full p-10 justify-center">
               <div className="relative w-[250px] h-[250px] lg:h-full lg:w-full">
                 <Image
-                  className="rounded drop-shadow-lg"
+                  className="rounded drop-shadow-lg object-cover"
                   src="/ads-civil.png"
                   alt="Advogado"
                   fill
