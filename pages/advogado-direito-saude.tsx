@@ -89,7 +89,7 @@ const DireitoSaude: NextPage = () => {
                   className="rounded drop-shadow-lg"
                   width={500}
                   height={870}
-                  src="/ads-civil.png"
+                  src="/victor.webp"
                   alt="Advogado"
                 />
               </div>

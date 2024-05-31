@@ -31,7 +31,7 @@ function Hero() {
             <div className="goldenEffect absolute w-full h-32 lg:h-1/2 z-0 opacity-30 bottom-0 left-0"></div>
             <Image
               data-aos="fade-left"
-              src="/index-image.png"
+              src="/todos-no-background.webp"
               alt="Advogados"
               width={1242}
               height={516}

@@ -87,7 +87,7 @@ const DireitoCriminal: NextPage = () => {
                   className="rounded drop-shadow-lg"
                   width={500}
                   height={870}
-                  src="/anelise2.png"
+                  src="/anelise.webp"
                   alt="Advogada"
                 />
               </div>
